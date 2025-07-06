@@ -12,3 +12,5 @@ jupyter
 streamlit
 Flask
 joblib
+gspread
+oauth2client
