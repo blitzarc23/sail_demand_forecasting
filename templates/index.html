@@ -6,9 +6,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: 
-            url("{{ url_for('static', filename='bg.jpg') }}") no-repeat center center fixed;
-
+      background: url("{{ url_for('static', filename='bg.jpg') }}") no-repeat center center fixed;
       background-size: cover;
       color: #ffffff;
       display: flex;
@@ -36,7 +34,7 @@
       text-align: left;
     }
 
-    select, input[type="submit"] {
+    select, input[type="submit"], input[type="number"], input[type="text"], button {
       width: 100%;
       padding: 10px;
       margin-top: 5px;
@@ -45,19 +43,19 @@
       font-size: 1em;
     }
 
-    select {
+    select, input[type="number"], input[type="text"] {
       background-color: #1f2f4f;
-      color: rgb(255, 255, 255);
+      color: white;
     }
 
-    input[type="submit"] {
+    input[type="submit"], button {
       background-color: #4c9aff;
       color: white;
       cursor: pointer;
       margin-top: 25px;
     }
 
-    input[type="submit"]:hover {
+    input[type="submit"]:hover, button:hover {
       background-color: #337acc;
     }
 
@@ -65,18 +63,40 @@
       color: #ff6b6b;
       margin-bottom: 15px;
     }
+
+    #extra-form {
+      display: none;
+      margin-top: 30px;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
+
+  <script>
+    function toggleExtraForm() {
+      const form = document.getElementById('extra-form');
+      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
 </head>
 <body>
 
   <div class="container">
-    
     <h1>TMT Forecast</h1>
 
     {% if error %}
       <p class="error">{{ error }}</p>
     {% endif %}
 
+    {% if next_date_msg %}
+      <div style="color: #ffeb3b; margin-bottom: 10px;">{{ next_date_msg }}</div>
+    {% endif %}
+
+    <!-- Forecast Form -->
     <form method="POST" action="/forecast">
       <label>Region:
         <select name="city">
@@ -109,6 +129,42 @@
 
       <input type="submit" value="Generate Forecast">
     </form>
+
+    <!-- Toggle Button -->
+    <button onclick="toggleExtraForm()">Input New Values</button>
+
+    <!-- Hidden Feature Engineering Form -->
+    <div id="extra-form">
+      <form method="POST" action="/feature_engineer">
+        <label>Region:
+          <select name="city" required>
+            <option value="mumbai">Western Region</option>
+            <option value="delhi">Northern Region</option>
+            <option value="chennai">Southern Region</option>
+            <option value="durgapur">Eastern Region</option>
+          </select>
+        </label>
+        <label>Primary Price Avg:
+          <input type="number" step="any" name="primary_price_avg" required>
+        </label>
+        <label>Secondary Price Avg:
+          <input type="number" step="any" name="secondary_price_avg" required>
+        </label>
+        <label>Stock Var:
+          <input type="number" step="any" name="stock_var" required>
+        </label>
+        <label>Retail Sales::
+          <input type="number" step="any" name="retail_sales" required>
+        </label>
+        <label>Non-Retail Sales:
+          <input type="number" step="any" name="non_retail_sales" required>
+        </label>
+        <label>Date (auto-filled):
+          <input type="text" name="date" value="{{ next_date }}" readonly>
+        </label>
+        <input type="submit" value="Add Row & Update Features">
+      </form>
+    </div>
   </div>
 
 </body>

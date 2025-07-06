@@ -54,7 +54,7 @@ def forecast_next_months(city, target, months=6):
             input_df = pd.DataFrame([row])
             missing_features = set(feature_names) - set(input_df.columns)
             if missing_features:
-                logger.error(f"Missing features for prediction: {missing_features}")
+                logger.warning(f"Missing features for prediction: {missing_features}")
                 for feature in missing_features:
                     # Use last known value from working_df for each missing feature
                     if feature in working_df.columns:

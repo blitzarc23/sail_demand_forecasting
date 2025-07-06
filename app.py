@@ -25,7 +25,31 @@ CITY_TO_REGION = {
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    city = request.args.get('city')
+    next_date_msg = ""
+    if city:
+        file_path = f"data/{city}_pr.csv"
+        try:
+            df = pd.read_csv(file_path, parse_dates=['date'], dayfirst=True)
+            last_date = df['date'].max()
+            next_month = (last_date + pd.DateOffset(months=1)).strftime('%B %Y')
+            next_date_msg = f"Please Input Values for Next Month - {next_month}"
+        except Exception:
+            next_date_msg = ""
+    return render_template('index.html', next_date_msg=next_date_msg)
+    
+import logging
+
+def get_last_date(city):
+    file_path = f"data/{city}_pr.csv"
+    try:
+        df = pd.read_csv(file_path, parse_dates=['date'], dayfirst=True)
+        last_date = df['date'].max()
+        logger.info(f"Successfully read {file_path}. Last date: {last_date.strftime('%d-%m-%Y')}")
+        return last_date
+    except Exception as e:
+        logger.error(f"Error reading {file_path}: {e}")
+        return None
 
 @app.route('/forecast', methods=['POST'])
 def forecast():
@@ -39,6 +63,15 @@ def forecast():
 
         regions = ['mumbai', 'delhi', 'chennai', 'durgapur']
         region_label = CITY_TO_REGION.get(city, city.title())
+          # --- All India CSV completeness check ---
+        if city == "india":
+            last_dates = {region: get_last_date(region) for region in regions}
+            if None in last_dates.values():
+                return render_template('index.html', error="Could not read all region CSV files. Check logs.")
+            if len(set(last_dates.values())) > 1:
+                logger.warning(f"CSV files not complete for all regions. Last dates: {last_dates}")
+                return render_template('index.html', error="All region CSVs must be filled to the same date for Whole India prediction. Please update missing months.")
+            logger.info(f"All region CSVs complete for Whole India prediction. Last date: {list(last_dates.values())[0].strftime('%d-%m-%Y')}")
 
         # Handle "Whole India" selection
         if city == "india":
@@ -143,7 +176,71 @@ def forecast():
         logger.info(f"User submitted forecast request: city={city}, target={target}, months={months}")
         logger.error(f"Error while forecasting: {str(e)}")
         return render_template('index.html', error="Something went wrong. Check logs.")
+@app.route('/feature_engineer', methods=['POST'])
+def feature_engineer():
+    try:
+        city = request.form['city']
+        primary_price_avg = float(request.form['primary_price_avg'])
+        secondary_price_avg = float(request.form['secondary_price_avg'])
+        stock_var = float(request.form['stock_var'])
+        retail_sales = float(request.form.get('retail_sales', 0))
+        non_retail_sales = float(request.form.get('non_retail_sales', 0))
 
+        file_path = f"data/{city}_pr.csv"
+        df = pd.read_csv(file_path, parse_dates=['date'], dayfirst=True)
+        df = df.sort_values('date').reset_index(drop=True)
+
+        # Compute next date
+        last_date = pd.to_datetime(df['date'].max())
+        next_date = last_date + pd.DateOffset(months=1)
+
+        # Append new row
+        new_row = {
+            'date': next_date,
+            'primary_price_avg': primary_price_avg,
+            'secondary_price_avg': secondary_price_avg,
+            'stock_var': stock_var,
+            'retail_sales': retail_sales,
+            'non_retail_sales': non_retail_sales,
+        }
+        df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+
+        # Feature engineering
+        df['price_diff'] = df['primary_price_avg'] - df['secondary_price_avg']
+        df['total_sales'] = df['retail_sales'] + df['non_retail_sales']
+
+        for col in ['primary_price_avg', 'secondary_price_avg', 'stock_var', 'retail_sales', 'non_retail_sales', 'price_diff']:
+            for lag in [1, 2, 3]:
+                df[f'{col}_lag_{lag}'] = df[col].shift(lag)
+
+        df['primary_price_roll3'] = df['primary_price_avg'].rolling(3, min_periods=1, center=True).mean()
+        df['secondary_price_roll3'] = df['secondary_price_avg'].rolling(3, min_periods=1, center=True).mean()
+        df['retail_sales_roll3'] = df['retail_sales'].rolling(3, min_periods=1, center=True).mean()
+        df['non_retail_sales_roll3'] = df['non_retail_sales'].rolling(3, min_periods=1, center=True).mean()
+
+        df['trend_index'] = range(1, len(df) + 1)
+        df['month'] = range(1, len(df) + 1)
+        df['month_number'] = pd.to_datetime(df['date'], dayfirst=True).dt.month
+
+        # non_retail_sales_custom_avg: rolling mean of n-1, n, n+1
+        n = len(df)
+        non_retail = df['non_retail_sales'].copy()
+        if n >= 2:
+            non_retail.iloc[-1] = non_retail.iloc[-2]  # simulate n+1 as n for last row
+        df['non_retail_sales_custom_avg'] = non_retail.rolling(3, min_periods=1, center=True).mean()
+
+        # Save date in dd-mm-yyyy format
+        df['date'] = pd.to_datetime(df['date'], dayfirst=True).dt.strftime('%d-%m-%Y')
+        df.to_csv(file_path, index=False)
+
+        # Compute next-next date for the form
+        next_next_date = (pd.to_datetime(next_date) + pd.DateOffset(months=1)).strftime('%B %Y')
+
+        return render_template('index.html', message="Row added and features updated!", next_date_msg=f"Please Input Values for Next Month - {next_next_date}")
+
+    except Exception as e:
+        logger.error(f"Error in feature_engineer: {e}")
+        return render_template('index.html', error="Something went wrong while updating features. Check logs.")
 @app.route('/download', methods=['POST'])
 def download():
     csv_data = request.form['csv_data']
