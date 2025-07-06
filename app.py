@@ -246,6 +246,14 @@ def download():
     )
 
 import os
+@app.route("/test_sheets")
+def test_sheets():
+    try:
+        df = read_sheet_as_df("mumbai_pr")  # use a valid sheet tab
+        return f"✅ Loaded {len(df)} rows."
+    except Exception as e:
+        return f"❌ Failed: {e}"
+
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
