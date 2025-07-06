@@ -7,9 +7,14 @@ SHEET_NAME = "tmt_forecasting_data"
 def authorize_google_sheets(credentials_path="credentials.json"):
     scope = ["https://spreadsheets.google.com/feeds",
              "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
-    client = gspread.authorize(creds)
-    return client
+    try:
+        creds = ServiceAccountCredentials.from_json_keyfile_name(credentials_path, scope)
+        client = gspread.authorize(creds)
+        return client
+    except Exception as e:
+        print(f"❌ Failed to authorize Google Sheets. Check credentials.json. Error: {e}")
+        raise
+
 
 def read_sheet_as_df(sheet_tab_name, credentials_path="credentials.json"):
     client = authorize_google_sheets(credentials_path)
