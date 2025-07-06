@@ -7,7 +7,7 @@ SHEET_NAME = "tmt_forecasting_data"
 def authorize_google_sheets(credentials_path="credentials.json"):
     scope = ["https://spreadsheets.google.com/feeds",
              "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name(credentials_path, scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
     client = gspread.authorize(creds)
     return client
 
