@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forecast Result</title>
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: url("{{ url_for('static', filename='bg.jpg') }}") no-repeat center center fixed;
+      background-size: cover;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2rem;
+      position: relative;
+    }
+
+    /* Glassmorphism overlay for contrast */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      backdrop-filter: blur(8px) brightness(0.9);
+      background-color: rgba(255, 255, 255, 0.4);
+      z-index: 0;
+    }
+
+    h2 {
+      z-index: 1;
+      font-size: 2.2rem;
+      color: #003049;
+      margin-bottom: 1.5rem;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    .plot-container {
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      padding: 1.5rem;
+      max-width: 90%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      animation: fadeInUp 1.2s ease-out;
+    }
+
+    form {
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    button {
+      background: linear-gradient(135deg, #003366, #001f3f);
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      color: #fff;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, #001f3f, #000c1a);
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+
+    /* Click ripple animation */
+    button::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: width 0.4s ease-out, height 0.4s ease-out;
+    }
+
+    button:active::after {
+      width: 200px;
+      height: 200px;
+      transition: 0s;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .plot-container {
+        padding: 1rem;
+      }
+
+      button {
+        width: 90%;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <h2>Forecast Result</h2>
+
+  <div class="plot-container">
+    {{ plot_html | safe }}
+  </div>
+
+  <form method="POST" action="/download">
+    <input type="hidden" name="csv_data" value="{{ csv_data }}">
+    <input type="hidden" name="filename" value="{{ filename }}">
+    <button type="submit">Download CSV</button>
+  </form>
+
+</body>
+</html>

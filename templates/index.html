@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TMT Forecast</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: 
+            url("{{ url_for('static', filename='bg.jpg') }}") no-repeat center center fixed;
+
+      background-size: cover;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: rgba(0, 0, 50, 0.7);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      width: 350px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    select, input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    select {
+      background-color: #1f2f4f;
+      color: rgb(255, 255, 255);
+    }
+
+    input[type="submit"] {
+      background-color: #4c9aff;
+      color: white;
+      cursor: pointer;
+      margin-top: 25px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #337acc;
+    }
+
+    .error {
+      color: #ff6b6b;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <h1>TMT Forecast</h1>
+
+    {% if error %}
+      <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" action="/forecast">
+      <label>Region:
+        <select name="city">
+          <option value="">Select</option>
+          <option value="mumbai">Western Region</option>
+          <option value="delhi">Northern Region </option>
+          <option value="chennai">Southern Region </option>
+          <option value="durgapur">Eastern Region </option>
+          <option value="india">Whole India</option>
+        </select>
+      </label>
+
+      <label>Sales Type:
+        <select name="target">
+          <option value="">Select</option>
+          <option value="retail_sales">Retail Sales</option>
+          <option value="non_retail_sales">Non-Retail Sales</option>
+          <option value="total_sales">Total Sales</option>
+        </select>
+      </label>
+
+      <label>Forecast Horizon:
+        <select name="months">
+          <option value="">Select</option>
+          <option value="2">2 Months</option>
+          <option value="3">3 Months</option>
+          <option value="6" selected>6 Months</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Generate Forecast">
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "mumbai_retail_sales": [
+    "retail_sales_roll3",
+    "trend_index",
+    "retail_sales_lag_1",
+    "price_diff_lag_3",
+    "price_diff_lag_1",
+    "price_diff_lag_2",
+    "stock_var_lag_1",
+    "stock_var_lag_3",
+    "retail_sales_lag_2"
+  ],
+  "mumbai_non_retail_sales": [
+    "non_retail_sales_custom_avg",
+    "price_diff_lag_3",
+    "stock_var",
+    "trend_index",
+    "non_retail_sales_lag_1",
+    "primary_price_avg",
+    "secondary_price_avg_lag_1",
+    "stock_var_lag_1",
+    "secondary_price_avg_lag_3"
+  ],
+  "delhi_retail_sales": [
+    "retail_sales_roll3",
+    "trend_index",
+    "retail_sales_lag_1",
+    "price_diff_lag_3",
+    "price_diff_lag_1",
+    "price_diff_lag_2",
+    "stock_var_lag_1",
+    "stock_var_lag_3",
+    "retail_sales_lag_2"
+  ],
+  "delhi_non_retail_sales": [
+    "non_retail_sales_custom_avg",
+    "non_retail_sales_roll3",
+    "price_diff_lag_2",
+    "primary_price_roll3",
+    "retail_sales_lag_3",
+    "trend_index",
+    "stock_var_lag_1",
+    "retail_sales_lag_2",
+    "stock_var"
+  ],
+  "chennai_retail_sales": [
+    "retail_sales_roll3",
+    "stock_var_lag_3",
+    "retail_sales_lag_2",
+    "non_retail_sales_lag_3",
+    "stock_var_lag_2",
+    "non_retail_sales_roll3",
+    "price_diff_lag_3",
+    "price_diff_lag_1",
+    "non_retail_sales_lag_2",
+    "retail_sales_lag_3"
+  ],
+  "chennai_non_retail_sales": [
+    "non_retail_sales_custom_avg",
+    "non_retail_sales_roll3",
+    "price_diff_lag_1",
+    "trend_index",
+    "retail_sales_lag_1",
+    "retail_sales_lag_3",
+    "non_retail_sales_lag_2",
+    "stock_var_lag_1",
+    "non_retail_sales_lag_1",
+    "primary_price_avg_lag_1"
+  ],
+  "durgapur_retail_sales": [
+    "retail_sales_roll3",
+    "trend_index",
+    "retail_sales_lag_1",
+    "price_diff_lag_3",
+    "price_diff_lag_1",
+    "price_diff_lag_2",
+    "stock_var_lag_1",
+    "stock_var_lag_3",
+    "retail_sales_lag_2"
+  ],
+  "durgapur_non_retail_sales": [
+    "non_retail_sales_custom_avg",
+    "retail_sales_lag_3",
+    "retail_sales_lag_2",
+    "price_diff_lag_2",
+    "price_diff_lag_3",
+    "trend_index",
+    "non_retail_sales_lag_1",
+    "non_retail_sales_lag_2",
+    "non_retail_sales_roll3",
+    "secondary_price_roll3"
+  ]
+}

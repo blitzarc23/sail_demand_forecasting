@@ -1,0 +1,483 @@
+2025-06-27 15:23:15,026 - INFO - Entered forecast_next_months()
+2025-06-27 15:23:15,027 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 15:23:15,074 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 15:23:15,075 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 15:23:15,075 - INFO - Generating future dates...
+2025-06-27 15:23:15,078 - INFO - Simulating future values using linear trend...
+2025-06-27 15:23:15,078 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 15:23:15,129 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992]
+2025-06-27 15:23:15,135 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265]
+2025-06-27 15:23:15,139 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287 ]
+2025-06-27 15:23:15,140 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 15:23:20,211 - INFO - Entered forecast_next_months()
+2025-06-27 15:23:20,211 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 15:23:20,225 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 15:23:20,226 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 15:23:20,226 - INFO - Generating future dates...
+2025-06-27 15:23:20,226 - INFO - Simulating future values using linear trend...
+2025-06-27 15:23:20,227 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 15:23:20,236 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992]
+2025-06-27 15:23:20,239 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265]
+2025-06-27 15:23:20,243 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287 ]
+2025-06-27 15:23:20,243 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 15:23:20,505 - INFO - Forecasted retail_sales for durgapur on Apr-2025: 37223.04
+2025-06-27 15:23:20,506 - INFO - Forecasting completed successfully.
+2025-06-27 15:23:20,510 - INFO - Forecasted retail_sales for durgapur on May-2025: 37587.01
+2025-06-27 15:23:20,511 - INFO - Forecasting completed successfully.
+2025-06-27 15:23:20,516 - INFO - Forecasted retail_sales for durgapur on Jun-2025: 29615.15
+2025-06-27 15:23:20,516 - INFO - Forecasting completed successfully.
+2025-06-27 15:23:20,517 - INFO - Entered forecast_next_months()
+2025-06-27 15:23:20,518 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 15:23:20,524 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 15:23:20,524 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 15:23:20,524 - INFO - Generating future dates...
+2025-06-27 15:23:20,524 - INFO - Simulating future values using linear trend...
+2025-06-27 15:23:20,525 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 15:23:20,530 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992]
+2025-06-27 15:23:20,533 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265]
+2025-06-27 15:23:20,537 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287 ]
+2025-06-27 15:23:20,537 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 15:23:20,628 - INFO - Forecasted non_retail_sales for durgapur on Apr-2025: 48129.29
+2025-06-27 15:23:20,629 - INFO - Forecasting completed successfully.
+2025-06-27 15:23:20,633 - INFO - Forecasted non_retail_sales for durgapur on May-2025: 37409.45
+2025-06-27 15:23:20,633 - INFO - Forecasting completed successfully.
+2025-06-27 15:23:20,637 - INFO - Forecasted non_retail_sales for durgapur on Jun-2025: 43356.17
+2025-06-27 15:23:20,637 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:08,989 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:08,990 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:15:09,035 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,036 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,037 - INFO - Generating future dates...
+2025-06-27 16:15:09,038 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,038 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:09,084 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237]
+2025-06-27 16:15:09,090 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398]
+2025-06-27 16:15:09,095 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426 ]
+2025-06-27 16:15:09,095 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:09,215 - INFO - Forecasted retail_sales for mumbai on Apr-2025: 32721.62
+2025-06-27 16:15:09,215 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,219 - INFO - Forecasted retail_sales for mumbai on May-2025: 37038.69
+2025-06-27 16:15:09,219 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,225 - INFO - Forecasted retail_sales for mumbai on Jun-2025: 37656.49
+2025-06-27 16:15:09,226 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,227 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:09,227 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:15:09,235 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,235 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,235 - INFO - Generating future dates...
+2025-06-27 16:15:09,236 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,236 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:09,244 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237]
+2025-06-27 16:15:09,247 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398]
+2025-06-27 16:15:09,252 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426 ]
+2025-06-27 16:15:09,252 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:09,366 - INFO - Forecasted non_retail_sales for mumbai on Apr-2025: 44105.42
+2025-06-27 16:15:09,367 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,371 - INFO - Forecasted non_retail_sales for mumbai on May-2025: 43007.99
+2025-06-27 16:15:09,371 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,376 - INFO - Forecasted non_retail_sales for mumbai on Jun-2025: 47666.77
+2025-06-27 16:15:09,376 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,383 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:09,383 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:15:09,422 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,422 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,422 - INFO - Generating future dates...
+2025-06-27 16:15:09,423 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,423 - INFO - Simulating future inputs... df shape: (30, 33), months: 3
+2025-06-27 16:15:09,430 - INFO - Simulated trend for primary_price_avg: [50849.03061839 50631.56306044 50414.09550248]
+2025-06-27 16:15:09,433 - INFO - Simulated trend for secondary_price_avg: [40896.06092184 40599.62024798 40303.17957412]
+2025-06-27 16:15:09,438 - INFO - Simulated trend for stock_var: [47708.65057471 47789.99362254 47871.33667037]
+2025-06-27 16:15:09,439 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:09,577 - INFO - Forecasted retail_sales for delhi on Apr-2025: 35118.57
+2025-06-27 16:15:09,578 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,582 - INFO - Forecasted retail_sales for delhi on May-2025: 39941.21
+2025-06-27 16:15:09,582 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,586 - INFO - Forecasted retail_sales for delhi on Jun-2025: 43942.03
+2025-06-27 16:15:09,586 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,587 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:09,587 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:15:09,594 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,594 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,594 - INFO - Generating future dates...
+2025-06-27 16:15:09,595 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,595 - INFO - Simulating future inputs... df shape: (30, 33), months: 3
+2025-06-27 16:15:09,600 - INFO - Simulated trend for primary_price_avg: [50849.03061839 50631.56306044 50414.09550248]
+2025-06-27 16:15:09,604 - INFO - Simulated trend for secondary_price_avg: [40896.06092184 40599.62024798 40303.17957412]
+2025-06-27 16:15:09,608 - INFO - Simulated trend for stock_var: [47708.65057471 47789.99362254 47871.33667037]
+2025-06-27 16:15:09,608 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:09,718 - INFO - Forecasted non_retail_sales for delhi on Apr-2025: 48558.94
+2025-06-27 16:15:09,718 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,722 - INFO - Forecasted non_retail_sales for delhi on May-2025: 31446.11
+2025-06-27 16:15:09,722 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,728 - INFO - Forecasted non_retail_sales for delhi on Jun-2025: 44394.37
+2025-06-27 16:15:09,728 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,735 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:09,735 - INFO - Reading data from data/chennai_pr.csv
+2025-06-27 16:15:09,767 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,767 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,768 - INFO - Generating future dates...
+2025-06-27 16:15:09,768 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,769 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:09,775 - INFO - Simulated trend for primary_price_avg: [51760.02840909 51544.65574866 51329.28308824]
+2025-06-27 16:15:09,779 - INFO - Simulated trend for secondary_price_avg: [44993.68524621 44681.99947282 44370.31369942]
+2025-06-27 16:15:09,783 - INFO - Simulated trend for stock_var: [34973.67045455 35329.21256684 35684.75467914]
+2025-06-27 16:15:09,783 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:09,901 - INFO - Forecasted retail_sales for chennai on Apr-2025: 18294.59
+2025-06-27 16:15:09,901 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,906 - INFO - Forecasted retail_sales for chennai on May-2025: 20172.93
+2025-06-27 16:15:09,906 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,910 - INFO - Forecasted retail_sales for chennai on Jun-2025: 13385.32
+2025-06-27 16:15:09,911 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:09,911 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:09,912 - INFO - Reading data from data/chennai_pr.csv
+2025-06-27 16:15:09,918 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:09,919 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:09,919 - INFO - Generating future dates...
+2025-06-27 16:15:09,919 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:09,920 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:09,925 - INFO - Simulated trend for primary_price_avg: [51760.02840909 51544.65574866 51329.28308824]
+2025-06-27 16:15:09,936 - INFO - Simulated trend for secondary_price_avg: [44993.68524621 44681.99947282 44370.31369942]
+2025-06-27 16:15:09,941 - INFO - Simulated trend for stock_var: [34973.67045455 35329.21256684 35684.75467914]
+2025-06-27 16:15:09,941 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:10,062 - INFO - Forecasted non_retail_sales for chennai on Apr-2025: 44148.96
+2025-06-27 16:15:10,062 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:10,065 - INFO - Forecasted non_retail_sales for chennai on May-2025: 39351.03
+2025-06-27 16:15:10,066 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:10,070 - INFO - Forecasted non_retail_sales for chennai on Jun-2025: 45788.84
+2025-06-27 16:15:10,070 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:10,075 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:10,075 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:15:10,099 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:10,099 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:10,099 - INFO - Generating future dates...
+2025-06-27 16:15:10,100 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:10,100 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:10,107 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992]
+2025-06-27 16:15:10,113 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265]
+2025-06-27 16:15:10,119 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287 ]
+2025-06-27 16:15:10,119 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:11,181 - INFO - Forecasted retail_sales for durgapur on Apr-2025: 37223.04
+2025-06-27 16:15:11,181 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:11,187 - INFO - Forecasted retail_sales for durgapur on May-2025: 37587.01
+2025-06-27 16:15:11,187 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:11,192 - INFO - Forecasted retail_sales for durgapur on Jun-2025: 29615.15
+2025-06-27 16:15:11,192 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:11,193 - INFO - Entered forecast_next_months()
+2025-06-27 16:15:11,193 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:15:11,201 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:15:11,201 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:15:11,201 - INFO - Generating future dates...
+2025-06-27 16:15:11,201 - INFO - Simulating future values using linear trend...
+2025-06-27 16:15:11,202 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-27 16:15:11,208 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992]
+2025-06-27 16:15:11,211 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265]
+2025-06-27 16:15:11,216 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287 ]
+2025-06-27 16:15:11,216 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-27 16:15:11,327 - INFO - Forecasted non_retail_sales for durgapur on Apr-2025: 48129.29
+2025-06-27 16:15:11,328 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:11,333 - INFO - Forecasted non_retail_sales for durgapur on May-2025: 37409.45
+2025-06-27 16:15:11,333 - INFO - Forecasting completed successfully.
+2025-06-27 16:15:11,338 - INFO - Forecasted non_retail_sales for durgapur on Jun-2025: 43356.17
+2025-06-27 16:15:11,338 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,354 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:10,355 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:28:10,373 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:10,373 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:10,373 - INFO - Generating future dates...
+2025-06-27 16:28:10,374 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:10,374 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:28:10,387 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237 51699.99108734
+ 51523.34670232 51346.70231729]
+2025-06-27 16:28:10,391 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398 45011.64537611
+ 44720.99992825 44430.35448039]
+2025-06-27 16:28:10,396 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426  52951.04233512
+ 53382.80202763 53814.56172014]
+2025-06-27 16:28:10,397 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:10,592 - INFO - Forecasted retail_sales for mumbai on Apr-2025: 32721.62
+2025-06-27 16:28:10,592 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,599 - INFO - Forecasted retail_sales for mumbai on May-2025: 37038.69
+2025-06-27 16:28:10,599 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,605 - INFO - Forecasted retail_sales for mumbai on Jun-2025: 37656.49
+2025-06-27 16:28:10,605 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,611 - INFO - Forecasted retail_sales for mumbai on Jul-2025: 38089.48
+2025-06-27 16:28:10,611 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,616 - INFO - Forecasted retail_sales for mumbai on Aug-2025: 37038.21
+2025-06-27 16:28:10,616 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,621 - INFO - Forecasted retail_sales for mumbai on Sep-2025: 39535.81
+2025-06-27 16:28:10,621 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,622 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:10,622 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:28:10,629 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:10,629 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:10,629 - INFO - Generating future dates...
+2025-06-27 16:28:10,630 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:10,630 - INFO - Simulating future inputs... df shape: (30, 33), months: 6
+2025-06-27 16:28:10,636 - INFO - Simulated trend for primary_price_avg: [50849.03061839 50631.56306044 50414.09550248 50196.62794453
+ 49979.16038658 49761.69282862]
+2025-06-27 16:28:10,642 - INFO - Simulated trend for secondary_price_avg: [40896.06092184 40599.62024798 40303.17957412 40006.73890026
+ 39710.2982264  39413.85755254]
+2025-06-27 16:28:10,647 - INFO - Simulated trend for stock_var: [47708.65057471 47789.99362254 47871.33667037 47952.67971821
+ 48034.02276604 48115.36581387]
+2025-06-27 16:28:10,647 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:10,813 - INFO - Forecasted retail_sales for delhi on Apr-2025: 35118.57
+2025-06-27 16:28:10,813 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,820 - INFO - Forecasted retail_sales for delhi on May-2025: 39941.21
+2025-06-27 16:28:10,821 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,827 - INFO - Forecasted retail_sales for delhi on Jun-2025: 43942.03
+2025-06-27 16:28:10,827 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,832 - INFO - Forecasted retail_sales for delhi on Jul-2025: 45556.40
+2025-06-27 16:28:10,832 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:10,838 - INFO - Forecasted retail_sales for delhi on Aug-2025: 46295.92
+2025-06-27 16:28:10,839 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,353 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:15,353 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:28:15,368 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:15,369 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:15,369 - INFO - Generating future dates...
+2025-06-27 16:28:15,370 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:15,370 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:28:15,379 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237 51699.99108734
+ 51523.34670232 51346.70231729]
+2025-06-27 16:28:15,384 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398 45011.64537611
+ 44720.99992825 44430.35448039]
+2025-06-27 16:28:15,390 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426  52951.04233512
+ 53382.80202763 53814.56172014]
+2025-06-27 16:28:15,390 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:15,551 - INFO - Forecasted retail_sales for mumbai on Apr-2025: 32721.62
+2025-06-27 16:28:15,552 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,556 - INFO - Forecasted retail_sales for mumbai on May-2025: 37038.69
+2025-06-27 16:28:15,556 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,560 - INFO - Forecasted retail_sales for mumbai on Jun-2025: 37656.49
+2025-06-27 16:28:15,560 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,564 - INFO - Forecasted retail_sales for mumbai on Jul-2025: 38089.48
+2025-06-27 16:28:15,564 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,568 - INFO - Forecasted retail_sales for mumbai on Aug-2025: 37038.21
+2025-06-27 16:28:15,568 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,572 - INFO - Forecasted retail_sales for mumbai on Sep-2025: 39535.81
+2025-06-27 16:28:15,572 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,573 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:15,574 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:28:15,579 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:15,579 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:15,579 - INFO - Generating future dates...
+2025-06-27 16:28:15,580 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:15,580 - INFO - Simulating future inputs... df shape: (30, 33), months: 6
+2025-06-27 16:28:15,585 - INFO - Simulated trend for primary_price_avg: [50849.03061839 50631.56306044 50414.09550248 50196.62794453
+ 49979.16038658 49761.69282862]
+2025-06-27 16:28:15,588 - INFO - Simulated trend for secondary_price_avg: [40896.06092184 40599.62024798 40303.17957412 40006.73890026
+ 39710.2982264  39413.85755254]
+2025-06-27 16:28:15,592 - INFO - Simulated trend for stock_var: [47708.65057471 47789.99362254 47871.33667037 47952.67971821
+ 48034.02276604 48115.36581387]
+2025-06-27 16:28:15,592 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:15,746 - INFO - Forecasted retail_sales for delhi on Apr-2025: 35118.57
+2025-06-27 16:28:15,746 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,750 - INFO - Forecasted retail_sales for delhi on May-2025: 39941.21
+2025-06-27 16:28:15,751 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,755 - INFO - Forecasted retail_sales for delhi on Jun-2025: 43942.03
+2025-06-27 16:28:15,755 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,759 - INFO - Forecasted retail_sales for delhi on Jul-2025: 45556.40
+2025-06-27 16:28:15,759 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,764 - INFO - Forecasted retail_sales for delhi on Aug-2025: 46295.92
+2025-06-27 16:28:15,764 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,769 - INFO - Forecasted retail_sales for delhi on Sep-2025: 47035.44
+2025-06-27 16:28:15,769 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,771 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:15,771 - INFO - Reading data from data/chennai_pr.csv
+2025-06-27 16:28:15,776 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:15,776 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:15,776 - INFO - Generating future dates...
+2025-06-27 16:28:15,777 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:15,777 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:28:15,781 - INFO - Simulated trend for primary_price_avg: [51760.02840909 51544.65574866 51329.28308824 51113.91042781
+ 50898.53776738 50683.16510695]
+2025-06-27 16:28:15,785 - INFO - Simulated trend for secondary_price_avg: [44993.68524621 44681.99947282 44370.31369942 44058.62792602
+ 43746.94215263 43435.25637923]
+2025-06-27 16:28:15,788 - INFO - Simulated trend for stock_var: [34973.67045455 35329.21256684 35684.75467914 36040.29679144
+ 36395.83890374 36751.38101604]
+2025-06-27 16:28:15,789 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:15,940 - INFO - Forecasted retail_sales for chennai on Apr-2025: 18294.59
+2025-06-27 16:28:15,940 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,944 - INFO - Forecasted retail_sales for chennai on May-2025: 20172.93
+2025-06-27 16:28:15,944 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,948 - INFO - Forecasted retail_sales for chennai on Jun-2025: 13385.32
+2025-06-27 16:28:15,948 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,954 - INFO - Forecasted retail_sales for chennai on Jul-2025: 13259.52
+2025-06-27 16:28:15,954 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,959 - INFO - Forecasted retail_sales for chennai on Aug-2025: 13246.49
+2025-06-27 16:28:15,959 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,964 - INFO - Forecasted retail_sales for chennai on Sep-2025: 13233.46
+2025-06-27 16:28:15,964 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:15,965 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:15,965 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:28:15,971 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:15,971 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:15,971 - INFO - Generating future dates...
+2025-06-27 16:28:15,972 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:15,972 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:28:15,978 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992 50316.96149242
+ 50108.68330492 49900.40511742]
+2025-06-27 16:28:15,981 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265 39572.20885829
+ 39245.01222393 38917.81558957]
+2025-06-27 16:28:15,984 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287  51253.78565062
+ 51485.11887255 51716.45209447]
+2025-06-27 16:28:15,984 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:16,366 - INFO - Forecasted retail_sales for durgapur on Apr-2025: 37223.04
+2025-06-27 16:28:16,366 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:16,372 - INFO - Forecasted retail_sales for durgapur on May-2025: 37587.01
+2025-06-27 16:28:16,373 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:16,377 - INFO - Forecasted retail_sales for durgapur on Jun-2025: 29615.15
+2025-06-27 16:28:16,377 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:16,383 - INFO - Forecasted retail_sales for durgapur on Jul-2025: 29615.15
+2025-06-27 16:28:16,384 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:16,388 - INFO - Forecasted retail_sales for durgapur on Aug-2025: 29615.15
+2025-06-27 16:28:16,389 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:16,393 - INFO - Forecasted retail_sales for durgapur on Sep-2025: 29615.15
+2025-06-27 16:28:16,393 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:49,984 - INFO - Entered forecast_next_months()
+2025-06-27 16:28:49,984 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:28:49,996 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:28:49,997 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:28:49,997 - INFO - Generating future dates...
+2025-06-27 16:28:49,998 - INFO - Simulating future values using linear trend...
+2025-06-27 16:28:49,998 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:28:50,005 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992 50316.96149242
+ 50108.68330492 49900.40511742]
+2025-06-27 16:28:50,009 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265 39572.20885829
+ 39245.01222393 38917.81558957]
+2025-06-27 16:28:50,014 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287  51253.78565062
+ 51485.11887255 51716.45209447]
+2025-06-27 16:28:50,014 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:28:50,175 - INFO - Forecasted retail_sales for durgapur on Apr-2025: 37223.04
+2025-06-27 16:28:50,176 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:50,180 - INFO - Forecasted retail_sales for durgapur on May-2025: 37587.01
+2025-06-27 16:28:50,180 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:50,185 - INFO - Forecasted retail_sales for durgapur on Jun-2025: 29615.15
+2025-06-27 16:28:50,186 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:50,190 - INFO - Forecasted retail_sales for durgapur on Jul-2025: 29615.15
+2025-06-27 16:28:50,190 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:50,194 - INFO - Forecasted retail_sales for durgapur on Aug-2025: 29615.15
+2025-06-27 16:28:50,194 - INFO - Forecasting completed successfully.
+2025-06-27 16:28:50,199 - INFO - Forecasted retail_sales for durgapur on Sep-2025: 29615.15
+2025-06-27 16:28:50,199 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,369 - INFO - Entered forecast_next_months()
+2025-06-27 16:29:02,369 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:29:02,380 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:29:02,381 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:29:02,381 - INFO - Generating future dates...
+2025-06-27 16:29:02,382 - INFO - Simulating future values using linear trend...
+2025-06-27 16:29:02,382 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:29:02,389 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992 50316.96149242
+ 50108.68330492 49900.40511742]
+2025-06-27 16:29:02,393 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265 39572.20885829
+ 39245.01222393 38917.81558957]
+2025-06-27 16:29:02,396 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287  51253.78565062
+ 51485.11887255 51716.45209447]
+2025-06-27 16:29:02,396 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:29:02,572 - INFO - Forecasted retail_sales for durgapur on Apr-2025: 37223.04
+2025-06-27 16:29:02,573 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,577 - INFO - Forecasted retail_sales for durgapur on May-2025: 37587.01
+2025-06-27 16:29:02,577 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,581 - INFO - Forecasted retail_sales for durgapur on Jun-2025: 29615.15
+2025-06-27 16:29:02,581 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,586 - INFO - Forecasted retail_sales for durgapur on Jul-2025: 29615.15
+2025-06-27 16:29:02,586 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,591 - INFO - Forecasted retail_sales for durgapur on Aug-2025: 29615.15
+2025-06-27 16:29:02,591 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,595 - INFO - Forecasted retail_sales for durgapur on Sep-2025: 29615.15
+2025-06-27 16:29:02,595 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,596 - INFO - Entered forecast_next_months()
+2025-06-27 16:29:02,596 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-27 16:29:02,602 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:29:02,602 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:29:02,602 - INFO - Generating future dates...
+2025-06-27 16:29:02,603 - INFO - Simulating future values using linear trend...
+2025-06-27 16:29:02,603 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:29:02,607 - INFO - Simulated trend for primary_price_avg: [50941.79605492 50733.51786742 50525.23967992 50316.96149242
+ 50108.68330492 49900.40511742]
+2025-06-27 16:29:02,611 - INFO - Simulated trend for secondary_price_avg: [40553.79876136 40226.60212701 39899.40549265 39572.20885829
+ 39245.01222393 38917.81558957]
+2025-06-27 16:29:02,615 - INFO - Simulated trend for stock_var: [50559.78598485 50791.11920677 51022.4524287  51253.78565062
+ 51485.11887255 51716.45209447]
+2025-06-27 16:29:02,615 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:29:02,773 - INFO - Forecasted non_retail_sales for durgapur on Apr-2025: 48129.29
+2025-06-27 16:29:02,773 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,777 - INFO - Forecasted non_retail_sales for durgapur on May-2025: 37409.45
+2025-06-27 16:29:02,777 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,782 - INFO - Forecasted non_retail_sales for durgapur on Jun-2025: 43356.17
+2025-06-27 16:29:02,782 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,787 - INFO - Forecasted non_retail_sales for durgapur on Jul-2025: 44010.30
+2025-06-27 16:29:02,787 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,791 - INFO - Forecasted non_retail_sales for durgapur on Aug-2025: 44653.49
+2025-06-27 16:29:02,792 - INFO - Forecasting completed successfully.
+2025-06-27 16:29:02,796 - INFO - Forecasted non_retail_sales for durgapur on Sep-2025: 44499.98
+2025-06-27 16:29:02,796 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,074 - INFO - Entered forecast_next_months()
+2025-06-27 16:31:11,074 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:31:11,081 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:31:11,081 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:31:11,081 - INFO - Generating future dates...
+2025-06-27 16:31:11,082 - INFO - Simulating future values using linear trend...
+2025-06-27 16:31:11,082 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:31:11,090 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237 51699.99108734
+ 51523.34670232 51346.70231729]
+2025-06-27 16:31:11,111 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398 45011.64537611
+ 44720.99992825 44430.35448039]
+2025-06-27 16:31:11,123 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426  52951.04233512
+ 53382.80202763 53814.56172014]
+2025-06-27 16:31:11,123 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:31:11,293 - INFO - Forecasted retail_sales for mumbai on Apr-2025: 32721.62
+2025-06-27 16:31:11,293 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,299 - INFO - Forecasted retail_sales for mumbai on May-2025: 37038.69
+2025-06-27 16:31:11,299 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,304 - INFO - Forecasted retail_sales for mumbai on Jun-2025: 37656.49
+2025-06-27 16:31:11,304 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,308 - INFO - Forecasted retail_sales for mumbai on Jul-2025: 38089.48
+2025-06-27 16:31:11,308 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,314 - INFO - Forecasted retail_sales for mumbai on Aug-2025: 37038.21
+2025-06-27 16:31:11,314 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,319 - INFO - Forecasted retail_sales for mumbai on Sep-2025: 39535.81
+2025-06-27 16:31:11,319 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,320 - INFO - Entered forecast_next_months()
+2025-06-27 16:31:11,320 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-27 16:31:11,326 - INFO - Max date value: 2025-03-01 00:00:00
+2025-06-27 16:31:11,326 - INFO - Last date in dataset: 01-03-2025
+2025-06-27 16:31:11,326 - INFO - Generating future dates...
+2025-06-27 16:31:11,326 - INFO - Simulating future values using linear trend...
+2025-06-27 16:31:11,327 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-27 16:31:11,332 - INFO - Simulated trend for primary_price_avg: [52229.92424242 52053.2798574  51876.63547237 51699.99108734
+ 51523.34670232 51346.70231729]
+2025-06-27 16:31:11,336 - INFO - Simulated trend for secondary_price_avg: [45883.5817197  45592.93627184 45302.29082398 45011.64537611
+ 44720.99992825 44430.35448039]
+2025-06-27 16:31:11,339 - INFO - Simulated trend for stock_var: [51655.76325758 52087.52295009 52519.2826426  52951.04233512
+ 53382.80202763 53814.56172014]
+2025-06-27 16:31:11,339 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-27 16:31:11,488 - INFO - Forecasted non_retail_sales for mumbai on Apr-2025: 44105.42
+2025-06-27 16:31:11,488 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,492 - INFO - Forecasted non_retail_sales for mumbai on May-2025: 43007.99
+2025-06-27 16:31:11,492 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,496 - INFO - Forecasted non_retail_sales for mumbai on Jun-2025: 47666.77
+2025-06-27 16:31:11,496 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,500 - INFO - Forecasted non_retail_sales for mumbai on Jul-2025: 47344.14
+2025-06-27 16:31:11,500 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,505 - INFO - Forecasted non_retail_sales for mumbai on Aug-2025: 45660.49
+2025-06-27 16:31:11,505 - INFO - Forecasting completed successfully.
+2025-06-27 16:31:11,509 - INFO - Forecasted non_retail_sales for mumbai on Sep-2025: 49471.50
+2025-06-27 16:31:11,509 - INFO - Forecasting completed successfully.
+2025-06-27 16:50:58,583 - INFO - Entered forecast_next_months()
+2025-06-27 16:50:58,583 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:50:58,609 - INFO - Max date value: 2025-06-01 00:00:00
+2025-06-27 16:50:58,609 - INFO - Last date in dataset: 01-06-2025
+2025-06-27 16:50:58,610 - INFO - Generating future dates...
+2025-06-27 16:50:58,610 - INFO - Simulating future values using linear trend...
+2025-06-27 16:50:58,610 - INFO - Simulating future inputs... df shape: (33, 33), months: 3
+2025-06-27 16:50:58,611 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-06-27 16:50:58,613 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/delhi_pr.csv
+2025-06-27 16:51:08,678 - INFO - Entered forecast_next_months()
+2025-06-27 16:51:08,678 - INFO - Reading data from data/delhi_pr.csv
+2025-06-27 16:51:08,694 - INFO - Max date value: 2025-06-01 00:00:00
+2025-06-27 16:51:08,695 - INFO - Last date in dataset: 01-06-2025
+2025-06-27 16:51:08,695 - INFO - Generating future dates...
+2025-06-27 16:51:08,695 - INFO - Simulating future values using linear trend...
+2025-06-27 16:51:08,695 - INFO - Simulating future inputs... df shape: (33, 33), months: 2
+2025-06-27 16:51:08,696 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-06-27 16:51:08,724 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/delhi_pr.csv

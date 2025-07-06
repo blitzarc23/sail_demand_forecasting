@@ -1,0 +1,7 @@
+body {
+    background-image: url('../static/background.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+    color: #333;
+}

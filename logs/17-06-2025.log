@@ -1,0 +1,110 @@
+2025-06-17 22:31:08,902 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=3
+2025-06-17 22:31:08,903 - ERROR - Error while forecasting: name 'pd' is not defined
+2025-06-17 22:38:29,762 - INFO - Entered forecast_next_months()
+2025-06-17 22:38:29,801 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=2
+2025-06-17 22:38:29,802 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:40:09,443 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:40:33,083 - INFO - Entered forecast_next_months()
+2025-06-17 22:40:33,107 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:40:33,107 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:41:30,142 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:41:48,001 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:41:49,826 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:42:01,590 - INFO - Entered forecast_next_months()
+2025-06-17 22:42:01,608 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=2
+2025-06-17 22:42:01,609 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:42:59,502 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:43:01,376 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:43:04,424 - INFO - Entered forecast_next_months()
+2025-06-17 22:43:04,443 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=2
+2025-06-17 22:43:04,443 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:43:08,285 - INFO - Entered forecast_next_months()
+2025-06-17 22:43:08,296 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=2
+2025-06-17 22:43:08,296 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:43:14,999 - INFO - Entered forecast_next_months()
+2025-06-17 22:43:15,010 - INFO - User submitted forecast request: city=chennai, target=retail_sales, months=3
+2025-06-17 22:43:15,010 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:44:26,024 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:44:32,712 - INFO - Entered forecast_next_months()
+2025-06-17 22:44:32,729 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:44:32,730 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:45:55,230 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:45:59,075 - INFO - Entered forecast_next_months()
+2025-06-17 22:45:59,091 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:45:59,091 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str
+2025-06-17 22:46:56,738 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:46:58,918 - INFO - User submitted forecast request: city=delhi, target=retail_sales, months=6
+2025-06-17 22:46:58,919 - ERROR - Error while forecasting: name 'file_path' is not defined
+2025-06-17 22:47:09,063 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:47:10,940 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:47:11,813 - INFO - User submitted forecast request: city=delhi, target=retail_sales, months=6
+2025-06-17 22:47:11,813 - ERROR - Error while forecasting: name 'file_path' is not defined
+2025-06-17 22:50:09,676 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:50:14,763 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:50:14,764 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:50:14,764 - ERROR - Error while forecasting: cannot access local variable 'df' where it is not associated with a value
+2025-06-17 22:51:50,223 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:51:52,109 - INFO - pd is available: <module 'pandas' from 'C:\\Users\\ppran\\Downloads\\sail_demand_forecasting\\venv\\Lib\\site-packages\\pandas\\__init__.py'>
+2025-06-17 22:52:22,743 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:52:22,744 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 22:52:22,744 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable
+2025-06-17 22:54:22,609 - INFO - Entered forecast_next_months()
+2025-06-17 22:54:22,609 - INFO - Reading data from data/delhi_pr.csv
+2025-06-17 22:54:22,631 - INFO - Last date in dataset: 01-12-2024
+2025-06-17 22:54:22,632 - INFO - Generating future dates...
+2025-06-17 22:54:22,632 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str | File path was: data/delhi_pr.csv
+2025-06-17 22:54:22,632 - INFO - User submitted forecast request: city=delhi, target=retail_sales, months=2
+2025-06-17 22:54:22,632 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-17 22:55:42,321 - INFO - Entered forecast_next_months()
+2025-06-17 22:55:42,322 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-17 22:55:42,331 - INFO - Last date in dataset: 01-12-2024
+2025-06-17 22:55:42,331 - INFO - Generating future dates...
+2025-06-17 22:55:42,331 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str | File path was: data/mumbai_pr.csv
+2025-06-17 22:55:42,331 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=3
+2025-06-17 22:55:42,331 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-17 23:00:25,941 - INFO - Entered forecast_next_months()
+2025-06-17 23:00:25,941 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-17 23:00:25,952 - INFO - Last date in dataset: 01-12-2024
+2025-06-17 23:00:25,952 - INFO - Generating future dates...
+2025-06-17 23:00:25,952 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str | File path was: data/mumbai_pr.csv
+2025-06-17 23:00:25,953 - INFO - User submitted forecast request: city=mumbai, target=non_retail_sales, months=6
+2025-06-17 23:00:25,953 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-17 23:10:04,576 - INFO - Entered forecast_next_months()
+2025-06-17 23:10:04,576 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-17 23:10:04,591 - INFO - Last date in dataset: 01-12-2024
+2025-06-17 23:10:04,591 - INFO - Generating future dates...
+2025-06-17 23:10:04,592 - ERROR - Error while forecasting: can only concatenate str (not "relativedelta") to str | File path was: data/mumbai_pr.csv
+2025-06-17 23:10:04,592 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-17 23:10:04,592 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-17 23:11:24,395 - INFO - Entered forecast_next_months()
+2025-06-17 23:11:24,396 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-17 23:11:24,424 - INFO - Last date in dataset: 12-01-2024
+2025-06-17 23:11:24,424 - INFO - Generating future dates...
+2025-06-17 23:11:24,426 - INFO - Simulating future values using linear trend...
+2025-06-17 23:11:24,426 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-17 23:11:24,481 - INFO - Simulated trend for primary_price_avg: [53320.49870833 53252.14420633 53183.78970432 53115.43520232
+ 53047.08070031 52978.72619831]
+2025-06-17 23:11:24,488 - INFO - Simulated trend for secondary_price_avg: [44999.08065341 44933.37118917 44867.66172493 44801.9522607
+ 44736.24279646 44670.53333222]
+2025-06-17 23:11:24,493 - INFO - Simulated trend for stock_var: [52716.9905303  53075.21813725 53433.44574421 53791.67335116
+ 54149.90095811 54508.12856506]
+2025-06-17 23:11:24,493 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-17 23:11:24,502 - ERROR - Error while forecasting: "['non_retail_sales', 'non_retail_sales_custom_avg'] not in index" | File path was: data/durgapur_pr.csv
+2025-06-17 23:11:24,502 - INFO - User submitted forecast request: city=durgapur, target=retail_sales, months=6
+2025-06-17 23:11:24,503 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-17 23:12:48,066 - INFO - Entered forecast_next_months()
+2025-06-17 23:12:48,067 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-17 23:12:48,083 - INFO - Last date in dataset: 12-01-2024
+2025-06-17 23:12:48,083 - INFO - Generating future dates...
+2025-06-17 23:12:48,084 - INFO - Simulating future values using linear trend...
+2025-06-17 23:12:48,084 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-17 23:12:48,094 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-17 23:12:48,100 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-17 23:12:48,105 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-17 23:12:48,105 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-17 23:12:48,114 - ERROR - Error while forecasting: "['retail_sales'] not in index" | File path was: data/mumbai_pr.csv
+2025-06-17 23:12:48,115 - INFO - User submitted forecast request: city=mumbai, target=non_retail_sales, months=6
+2025-06-17 23:12:48,116 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'

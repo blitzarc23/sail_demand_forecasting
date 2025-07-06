@@ -1,0 +1,658 @@
+2025-06-18 10:00:04,841 - INFO - Entered forecast_next_months()
+2025-06-18 10:00:04,842 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 10:00:04,868 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 10:00:04,868 - INFO - Generating future dates...
+2025-06-18 10:00:04,870 - INFO - Simulating future values using linear trend...
+2025-06-18 10:00:04,870 - INFO - Simulating future inputs... df shape: (33, 30), months: 2
+2025-06-18 10:00:04,901 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253]
+2025-06-18 10:00:04,905 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951]
+2025-06-18 10:00:04,908 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629]
+2025-06-18 10:00:04,908 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 10:00:04,925 - ERROR - Error while forecasting: "['retail_sales', 'month', 'secondary_price_roll3'] not in index" | File path was: data/mumbai_pr.csv
+2025-06-18 10:00:04,925 - INFO - User submitted forecast request: city=mumbai, target=non_retail_sales, months=2
+2025-06-18 10:00:04,925 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 10:02:41,607 - INFO - Entered forecast_next_months()
+2025-06-18 10:02:41,607 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 10:02:41,633 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 10:02:41,633 - INFO - Generating future dates...
+2025-06-18 10:02:41,633 - INFO - Simulating future values using linear trend...
+2025-06-18 10:02:41,633 - INFO - Simulating future inputs... df shape: (30, 33), months: 2
+2025-06-18 10:02:41,643 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965]
+2025-06-18 10:02:41,646 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073]
+2025-06-18 10:02:41,649 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665]
+2025-06-18 10:02:41,649 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 10:02:42,482 - ERROR - Error while forecasting: "['retail_sales', 'primary_price_roll3'] not in index" | File path was: data/delhi_pr.csv
+2025-06-18 10:02:42,483 - INFO - User submitted forecast request: city=delhi, target=non_retail_sales, months=2
+2025-06-18 10:02:42,483 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:05:33,390 - INFO - Entered forecast_next_months()
+2025-06-18 22:05:33,390 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-18 22:05:33,435 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:05:33,436 - INFO - Generating future dates...
+2025-06-18 22:05:33,438 - INFO - Simulating future values using linear trend...
+2025-06-18 22:05:33,438 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:05:33,485 - INFO - Simulated trend for primary_price_avg: [53320.49870833 53252.14420633 53183.78970432 53115.43520232
+ 53047.08070031 52978.72619831]
+2025-06-18 22:05:33,490 - INFO - Simulated trend for secondary_price_avg: [44999.08065341 44933.37118917 44867.66172493 44801.9522607
+ 44736.24279646 44670.53333222]
+2025-06-18 22:05:33,493 - INFO - Simulated trend for stock_var: [52716.9905303  53075.21813725 53433.44574421 53791.67335116
+ 54149.90095811 54508.12856506]
+2025-06-18 22:05:33,494 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:07:11,027 - INFO - Entered forecast_next_months()
+2025-06-18 22:07:11,028 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:07:11,063 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:07:11,063 - INFO - Generating future dates...
+2025-06-18 22:07:11,063 - INFO - Simulating future values using linear trend...
+2025-06-18 22:07:11,063 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:07:11,071 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 22:07:11,075 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 22:07:11,078 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 22:07:11,078 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:07:11,098 - ERROR - Error while forecasting: "['month', 'non_retail_sales_custom_avg'] not in index" | File path was: data/mumbai_pr.csv
+2025-06-18 22:07:11,099 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-18 22:07:11,099 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:07:25,953 - INFO - Entered forecast_next_months()
+2025-06-18 22:07:25,953 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 22:07:25,978 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:07:25,979 - INFO - Generating future dates...
+2025-06-18 22:07:25,979 - INFO - Simulating future values using linear trend...
+2025-06-18 22:07:25,979 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:07:25,984 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107  54817.86597594 54786.10294118
+ 54754.33990642 54722.57687166]
+2025-06-18 22:07:25,987 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097 49963.30259414 49945.98465731
+ 49928.66672048 49911.34878365]
+2025-06-18 22:07:25,990 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759 27300.52205882 27214.78877005
+ 27129.05548128 27043.32219251]
+2025-06-18 22:07:25,990 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:07:26,014 - INFO - Forecasted retail_sales for chennai on Feb-2024: 14198.99
+2025-06-18 22:07:26,021 - INFO - Forecasted retail_sales for chennai on Mar-2024: 13792.65
+2025-06-18 22:07:26,025 - ERROR - Error while forecasting: Input X contains NaN.
+LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values | File path was: data/chennai_pr.csv
+2025-06-18 22:07:26,025 - INFO - User submitted forecast request: city=chennai, target=retail_sales, months=6
+2025-06-18 22:07:26,025 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:15:32,861 - INFO - Entered forecast_next_months()
+2025-06-18 22:15:32,862 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:15:32,862 - INFO - User submitted forecast request: city=mumbai, target=non_retail_sales, months=3
+2025-06-18 22:15:32,862 - ERROR - Error while forecasting: name 'X_future' is not defined
+2025-06-18 22:17:08,222 - INFO - Entered forecast_next_months()
+2025-06-18 22:17:08,222 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:17:08,222 - INFO - User submitted forecast request: city=mumbai, target=retail_sales, months=6
+2025-06-18 22:17:08,222 - ERROR - Error while forecasting: name 'X_future' is not defined
+2025-06-18 22:18:02,478 - INFO - Entered forecast_next_months()
+2025-06-18 22:18:02,479 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-18 22:18:02,479 - INFO - User submitted forecast request: city=durgapur, target=retail_sales, months=6
+2025-06-18 22:18:02,479 - ERROR - Error while forecasting: name 'X_future' is not defined
+2025-06-18 22:19:16,812 - INFO - Entered forecast_next_months()
+2025-06-18 22:19:16,812 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 22:19:16,823 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:19:16,823 - INFO - Generating future dates...
+2025-06-18 22:19:16,824 - INFO - Simulating future values using linear trend...
+2025-06-18 22:19:16,824 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:19:16,831 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107  54817.86597594 54786.10294118
+ 54754.33990642 54722.57687166]
+2025-06-18 22:19:16,834 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097 49963.30259414 49945.98465731
+ 49928.66672048 49911.34878365]
+2025-06-18 22:19:16,837 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759 27300.52205882 27214.78877005
+ 27129.05548128 27043.32219251]
+2025-06-18 22:19:16,837 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:19:16,863 - ERROR - Error while forecasting: "['month'] not in index" | File path was: data/chennai_pr.csv
+2025-06-18 22:19:16,863 - INFO - User submitted forecast request: city=chennai, target=non_retail_sales, months=6
+2025-06-18 22:19:16,863 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:23:37,548 - INFO - Entered forecast_next_months()
+2025-06-18 22:23:37,548 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 22:23:37,559 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:23:37,559 - INFO - Generating future dates...
+2025-06-18 22:23:37,560 - INFO - Simulating future values using linear trend...
+2025-06-18 22:23:37,560 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:23:37,566 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107  54817.86597594 54786.10294118
+ 54754.33990642 54722.57687166]
+2025-06-18 22:23:37,569 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097 49963.30259414 49945.98465731
+ 49928.66672048 49911.34878365]
+2025-06-18 22:23:37,572 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759 27300.52205882 27214.78877005
+ 27129.05548128 27043.32219251]
+2025-06-18 22:23:37,572 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:23:37,582 - INFO - Forecasted retail_sales for chennai on Feb-2024: 14198.99
+2025-06-18 22:23:37,589 - INFO - Forecasted retail_sales for chennai on Mar-2024: 13792.65
+2025-06-18 22:23:37,593 - ERROR - Error while forecasting: Input X contains NaN.
+LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values | File path was: data/chennai_pr.csv
+2025-06-18 22:23:37,593 - INFO - User submitted forecast request: city=chennai, target=retail_sales, months=6
+2025-06-18 22:23:37,593 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:25:23,606 - INFO - Entered forecast_next_months()
+2025-06-18 22:25:23,606 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 22:25:23,617 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:25:23,617 - INFO - Generating future dates...
+2025-06-18 22:25:23,618 - INFO - Simulating future values using linear trend...
+2025-06-18 22:25:23,618 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:25:23,625 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107  54817.86597594 54786.10294118
+ 54754.33990642 54722.57687166]
+2025-06-18 22:25:23,628 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097 49963.30259414 49945.98465731
+ 49928.66672048 49911.34878365]
+2025-06-18 22:25:23,631 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759 27300.52205882 27214.78877005
+ 27129.05548128 27043.32219251]
+2025-06-18 22:25:23,632 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:25:23,652 - INFO - Forecasted retail_sales for chennai on Feb-2024: 14198.99
+2025-06-18 22:25:23,661 - INFO - Forecasted retail_sales for chennai on Mar-2024: 13792.65
+2025-06-18 22:25:23,665 - ERROR - Error while forecasting: Input X contains NaN.
+LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values | File path was: data/chennai_pr.csv
+2025-06-18 22:25:23,666 - INFO - User submitted forecast request: city=chennai, target=retail_sales, months=6
+2025-06-18 22:25:23,666 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:28:07,422 - INFO - Entered forecast_next_months()
+2025-06-18 22:28:07,422 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:28:07,434 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:28:07,434 - INFO - Generating future dates...
+2025-06-18 22:28:07,435 - INFO - Simulating future values using linear trend...
+2025-06-18 22:28:07,435 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:28:07,442 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 22:28:07,446 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 22:28:07,449 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 22:28:07,450 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:28:07,456 - ERROR - Skipped forecasting for Feb-2024 due to missing input features.
+2025-06-18 22:28:07,457 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,462 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4693.8622897727255, 'trend_index': 36, 'month': 2, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:28:07,466 - ERROR - Skipped forecasting for Mar-2024 due to missing input features.
+2025-06-18 22:28:07,469 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,470 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4710.658633021383, 'trend_index': 36, 'month': 3, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:28:07,474 - ERROR - Skipped forecasting for Apr-2024 due to missing input features.
+2025-06-18 22:28:07,476 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,477 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4727.454976270048, 'trend_index': 36, 'month': 4, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:28:07,480 - ERROR - Skipped forecasting for May-2024 due to missing input features.
+2025-06-18 22:28:07,481 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,483 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4744.251319518713, 'trend_index': 36, 'month': 5, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:28:07,486 - ERROR - Skipped forecasting for Jun-2024 due to missing input features.
+2025-06-18 22:28:07,487 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,488 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4761.047662767378, 'trend_index': 36, 'month': 6, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:28:07,493 - ERROR - Skipped forecasting for Jul-2024 due to missing input features.
+2025-06-18 22:28:07,494 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:28:07,495 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4777.844006016036, 'trend_index': 36, 'month': 7, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,225 - INFO - Entered forecast_next_months()
+2025-06-18 22:40:52,226 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:40:52,237 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:40:52,237 - INFO - Generating future dates...
+2025-06-18 22:40:52,237 - INFO - Simulating future values using linear trend...
+2025-06-18 22:40:52,237 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:40:52,244 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 22:40:52,249 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 22:40:52,252 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 22:40:52,252 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:40:52,260 - ERROR - Skipped forecasting for Feb-2024 due to missing input features.
+2025-06-18 22:40:52,261 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,264 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4693.8622897727255, 'trend_index': 36, 'month': 2, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,268 - ERROR - Skipped forecasting for Mar-2024 due to missing input features.
+2025-06-18 22:40:52,269 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,270 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4710.658633021383, 'trend_index': 36, 'month': 3, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,274 - ERROR - Skipped forecasting for Apr-2024 due to missing input features.
+2025-06-18 22:40:52,275 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,277 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4727.454976270048, 'trend_index': 36, 'month': 4, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,280 - ERROR - Skipped forecasting for May-2024 due to missing input features.
+2025-06-18 22:40:52,281 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,282 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4744.251319518713, 'trend_index': 36, 'month': 5, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,286 - ERROR - Skipped forecasting for Jun-2024 due to missing input features.
+2025-06-18 22:40:52,287 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,288 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4761.047662767378, 'trend_index': 36, 'month': 6, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:40:52,292 - ERROR - Skipped forecasting for Jul-2024 due to missing input features.
+2025-06-18 22:40:52,293 - ERROR - Missing feature summary:
+retail_sales_roll3             0
+price_diff                     0
+trend_index                    0
+month                          0
+non_retail_sales_lag_3         0
+non_retail_sales_custom_avg    1
+secondary_price_avg_lag_3      0
+price_diff_lag_1               0
+price_diff_lag_3               0
+price_diff_lag_2               0
+dtype: int64
+2025-06-18 22:40:52,294 - ERROR - Input row at failure:
+{'retail_sales_roll3': 35991.753666666664, 'price_diff': 4777.844006016036, 'trend_index': 36, 'month': 7, 'non_retail_sales_lag_3': 29777.311, 'non_retail_sales_custom_avg': nan, 'secondary_price_avg_lag_3': 53314.815, 'price_diff_lag_1': 5924.0, 'price_diff_lag_3': 3360.185, 'price_diff_lag_2': 4731.818}
+2025-06-18 22:48:58,693 - INFO - Entered forecast_next_months()
+2025-06-18 22:48:58,694 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-18 22:48:58,705 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:48:58,705 - INFO - Generating future dates...
+2025-06-18 22:48:58,705 - INFO - Simulating future values using linear trend...
+2025-06-18 22:48:58,707 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:48:58,714 - INFO - Simulated trend for primary_price_avg: [53320.49870833 53252.14420633 53183.78970432 53115.43520232
+ 53047.08070031 52978.72619831]
+2025-06-18 22:48:58,720 - INFO - Simulated trend for secondary_price_avg: [44999.08065341 44933.37118917 44867.66172493 44801.9522607
+ 44736.24279646 44670.53333222]
+2025-06-18 22:48:58,724 - INFO - Simulated trend for stock_var: [52716.9905303  53075.21813725 53433.44574421 53791.67335116
+ 54149.90095811 54508.12856506]
+2025-06-18 22:48:58,724 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:48:59,541 - ERROR - Error while forecasting: "['non_retail_sales'] not in index" | File path was: data/durgapur_pr.csv
+2025-06-18 22:48:59,541 - INFO - User submitted forecast request: city=durgapur, target=retail_sales, months=6
+2025-06-18 22:48:59,542 - ERROR - Error while forecasting: 'NoneType' object has no attribute 'empty'
+2025-06-18 22:52:38,242 - INFO - Entered forecast_next_months()
+2025-06-18 22:52:38,242 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:52:38,258 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:52:38,258 - INFO - Generating future dates...
+2025-06-18 22:52:38,258 - INFO - Simulating future values using linear trend...
+2025-06-18 22:52:38,258 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:52:38,266 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 22:52:38,270 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 22:52:38,276 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 22:52:38,276 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:52:38,283 - ERROR - Error while forecasting: "['non_retail_sales_custom_avg'] not in index" | File path was: data/mumbai_pr.csv
+2025-06-18 22:54:28,629 - INFO - Entered forecast_next_months()
+2025-06-18 22:54:28,629 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 22:54:28,640 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:54:28,641 - INFO - Generating future dates...
+2025-06-18 22:54:28,641 - INFO - Simulating future values using linear trend...
+2025-06-18 22:54:28,641 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:54:28,648 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 22:54:28,651 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 22:54:28,653 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 22:54:28,653 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:54:28,672 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,673 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,674 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,682 - INFO - Forecasted non_retail_sales for mumbai on Feb-2024: 72470.19
+2025-06-18 22:54:28,684 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,685 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,685 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,692 - INFO - Forecasted non_retail_sales for mumbai on Mar-2024: 87060.65
+2025-06-18 22:54:28,695 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,696 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,696 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,702 - INFO - Forecasted non_retail_sales for mumbai on Apr-2024: 94263.70
+2025-06-18 22:54:28,704 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,704 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,705 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,710 - INFO - Forecasted non_retail_sales for mumbai on May-2024: 101630.78
+2025-06-18 22:54:28,713 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,713 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,713 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,719 - INFO - Forecasted non_retail_sales for mumbai on Jun-2024: 106664.57
+2025-06-18 22:54:28,721 - ERROR - Missing features for prediction: {'retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:54:28,721 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 22:54:28,722 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:54:28,728 - INFO - Forecasted non_retail_sales for mumbai on Jul-2024: 109890.98
+2025-06-18 22:54:59,671 - INFO - Entered forecast_next_months()
+2025-06-18 22:54:59,671 - INFO - Reading data from data/durgapur_pr.csv
+2025-06-18 22:54:59,678 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:54:59,678 - INFO - Generating future dates...
+2025-06-18 22:54:59,678 - INFO - Simulating future values using linear trend...
+2025-06-18 22:54:59,678 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 22:54:59,682 - INFO - Simulated trend for primary_price_avg: [53320.49870833 53252.14420633 53183.78970432 53115.43520232
+ 53047.08070031 52978.72619831]
+2025-06-18 22:54:59,685 - INFO - Simulated trend for secondary_price_avg: [44999.08065341 44933.37118917 44867.66172493 44801.9522607
+ 44736.24279646 44670.53333222]
+2025-06-18 22:54:59,688 - INFO - Simulated trend for stock_var: [52716.9905303  53075.21813725 53433.44574421 53791.67335116
+ 54149.90095811 54508.12856506]
+2025-06-18 22:54:59,689 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 22:54:59,716 - INFO - Forecasted non_retail_sales for durgapur on Feb-2024: 49346.91
+2025-06-18 22:54:59,724 - INFO - Forecasted non_retail_sales for durgapur on Mar-2024: 48006.28
+2025-06-18 22:54:59,728 - ERROR - Generated input for Apr-2024 contains NaN. Skipping this prediction.
+2025-06-18 22:54:59,731 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 22:54:59,734 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 22:54:59,736 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
+2025-06-18 22:55:17,854 - INFO - Entered forecast_next_months()
+2025-06-18 22:55:17,854 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 22:55:17,878 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 22:55:17,878 - INFO - Generating future dates...
+2025-06-18 22:55:17,879 - INFO - Simulating future values using linear trend...
+2025-06-18 22:55:17,879 - INFO - Simulating future inputs... df shape: (30, 33), months: 2
+2025-06-18 22:55:17,884 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965]
+2025-06-18 22:55:17,887 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073]
+2025-06-18 22:55:17,890 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665]
+2025-06-18 22:55:17,890 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 22:55:17,908 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:55:17,909 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 22:55:17,909 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:55:17,916 - INFO - Forecasted retail_sales for delhi on Feb-2024: 3167.99
+2025-06-18 22:55:17,919 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 22:55:17,919 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 22:55:17,919 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 22:55:17,927 - INFO - Forecasted retail_sales for delhi on Mar-2024: 18550.84
+2025-06-18 23:00:00,041 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:00,041 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 23:00:00,053 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:00,053 - INFO - Generating future dates...
+2025-06-18 23:00:00,054 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:00,054 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 23:00:00,061 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 23:00:00,065 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 23:00:00,068 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 23:00:00,068 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 23:00:00,084 - INFO - Forecasted retail_sales for mumbai on Feb-2024: 40994.37
+2025-06-18 23:00:00,092 - ERROR - Generated input for Mar-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:00,097 - ERROR - Generated input for Apr-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:00,101 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:00,105 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:00,109 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:15,220 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:15,220 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 23:00:15,228 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:15,228 - INFO - Generating future dates...
+2025-06-18 23:00:15,229 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:15,229 - INFO - Simulating future inputs... df shape: (30, 33), months: 6
+2025-06-18 23:00:15,234 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965 52828.32983953 52748.8185294
+ 52669.30721928 52589.79590916]
+2025-06-18 23:00:15,237 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073 43951.36010582 43863.38689092
+ 43775.41367601 43687.4404611 ]
+2025-06-18 23:00:15,239 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665 46236.54467927 46224.4710419
+ 46212.39740452 46200.32376715]
+2025-06-18 23:00:15,240 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 23:00:15,402 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,403 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,404 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,411 - INFO - Forecasted non_retail_sales for delhi on Feb-2024: 31198.00
+2025-06-18 23:00:15,413 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,414 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,414 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,420 - INFO - Forecasted non_retail_sales for delhi on Mar-2024: 31858.95
+2025-06-18 23:00:15,422 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,422 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,423 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,429 - INFO - Forecasted non_retail_sales for delhi on Apr-2024: 32552.49
+2025-06-18 23:00:15,431 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,432 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,432 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,433 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:15,435 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,435 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,436 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,437 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:15,439 - ERROR - Missing features for prediction: {'primary_price_roll3', 'retail_sales'}
+2025-06-18 23:00:15,439 - WARNING - Setting missing feature 'primary_price_roll3' to 0
+2025-06-18 23:00:15,440 - WARNING - Setting missing feature 'retail_sales' to 0
+2025-06-18 23:00:15,441 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:23,926 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:23,926 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 23:00:23,933 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:23,934 - INFO - Generating future dates...
+2025-06-18 23:00:23,934 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:23,934 - INFO - Simulating future inputs... df shape: (30, 33), months: 2
+2025-06-18 23:00:23,938 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965]
+2025-06-18 23:00:23,941 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073]
+2025-06-18 23:00:23,944 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665]
+2025-06-18 23:00:23,944 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 23:00:23,948 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:00:23,949 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:00:23,949 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:00:23,958 - INFO - Forecasted retail_sales for delhi on Feb-2024: 3167.99
+2025-06-18 23:00:23,962 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:00:23,962 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:00:23,963 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:00:23,969 - INFO - Forecasted retail_sales for delhi on Mar-2024: 18550.84
+2025-06-18 23:00:28,343 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:28,344 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 23:00:28,350 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:28,350 - INFO - Generating future dates...
+2025-06-18 23:00:28,350 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:28,350 - INFO - Simulating future inputs... df shape: (30, 33), months: 3
+2025-06-18 23:00:28,354 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965 52828.32983953]
+2025-06-18 23:00:28,358 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073 43951.36010582]
+2025-06-18 23:00:28,361 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665 46236.54467927]
+2025-06-18 23:00:28,361 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-18 23:00:28,365 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:00:28,365 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:00:28,366 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:00:28,372 - INFO - Forecasted retail_sales for delhi on Feb-2024: 3167.99
+2025-06-18 23:00:28,377 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:00:28,377 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:00:28,378 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:00:28,384 - INFO - Forecasted retail_sales for delhi on Mar-2024: 18550.84
+2025-06-18 23:00:28,386 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:00:28,387 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:00:28,387 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:00:28,394 - INFO - Forecasted retail_sales for delhi on Apr-2024: 10096.58
+2025-06-18 23:00:34,371 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:34,371 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 23:00:34,377 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:34,377 - INFO - Generating future dates...
+2025-06-18 23:00:34,377 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:34,377 - INFO - Simulating future inputs... df shape: (33, 30), months: 2
+2025-06-18 23:00:34,383 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253]
+2025-06-18 23:00:34,386 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951]
+2025-06-18 23:00:34,389 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629]
+2025-06-18 23:00:34,389 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 23:00:34,401 - INFO - Forecasted retail_sales for mumbai on Feb-2024: 40994.37
+2025-06-18 23:00:34,404 - ERROR - Generated input for Mar-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:38,185 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:38,185 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 23:00:38,192 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:38,192 - INFO - Generating future dates...
+2025-06-18 23:00:38,192 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:38,192 - INFO - Simulating future inputs... df shape: (33, 30), months: 3
+2025-06-18 23:00:38,196 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446]
+2025-06-18 23:00:38,199 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819]
+2025-06-18 23:00:38,202 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137]
+2025-06-18 23:00:38,202 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-06-18 23:00:38,216 - INFO - Forecasted retail_sales for mumbai on Feb-2024: 40994.37
+2025-06-18 23:00:38,221 - ERROR - Generated input for Mar-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:38,225 - ERROR - Generated input for Apr-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:41,826 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:41,826 - INFO - Reading data from data/mumbai_pr.csv
+2025-06-18 23:00:41,833 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:41,834 - INFO - Generating future dates...
+2025-06-18 23:00:41,834 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:41,834 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 23:00:41,838 - INFO - Simulated trend for primary_price_avg: [54217.48106061 54157.75178253 54098.02250446 54038.29322638
+ 53978.56394831 53918.83467023]
+2025-06-18 23:00:41,841 - INFO - Simulated trend for secondary_price_avg: [49523.61877083 49447.09314951 49370.56752819 49294.04190686
+ 49217.51628554 49140.99066422]
+2025-06-18 23:00:41,844 - INFO - Simulated trend for stock_var: [40448.27462121 40220.77027629 39993.26593137 39765.76158645
+ 39538.25724153 39310.75289661]
+2025-06-18 23:00:41,844 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 23:00:41,854 - INFO - Forecasted retail_sales for mumbai on Feb-2024: 40994.37
+2025-06-18 23:00:41,858 - ERROR - Generated input for Mar-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:41,863 - ERROR - Generated input for Apr-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:41,867 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:41,870 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:41,872 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:45,326 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:45,326 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 23:00:45,333 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:45,333 - INFO - Generating future dates...
+2025-06-18 23:00:45,333 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:45,333 - INFO - Simulating future inputs... df shape: (33, 30), months: 6
+2025-06-18 23:00:45,337 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107  54817.86597594 54786.10294118
+ 54754.33990642 54722.57687166]
+2025-06-18 23:00:45,340 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097 49963.30259414 49945.98465731
+ 49928.66672048 49911.34878365]
+2025-06-18 23:00:45,344 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759 27300.52205882 27214.78877005
+ 27129.05548128 27043.32219251]
+2025-06-18 23:00:45,344 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 23:00:45,358 - INFO - Forecasted retail_sales for chennai on Feb-2024: 14198.99
+2025-06-18 23:00:45,369 - INFO - Forecasted retail_sales for chennai on Mar-2024: 13792.65
+2025-06-18 23:00:45,375 - ERROR - Generated input for Apr-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:45,380 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:45,383 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:45,388 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:00:48,672 - INFO - Entered forecast_next_months()
+2025-06-18 23:00:48,672 - INFO - Reading data from data/chennai_pr.csv
+2025-06-18 23:00:48,678 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:00:48,679 - INFO - Generating future dates...
+2025-06-18 23:00:48,679 - INFO - Simulating future values using linear trend...
+2025-06-18 23:00:48,679 - INFO - Simulating future inputs... df shape: (33, 30), months: 2
+2025-06-18 23:00:48,683 - INFO - Simulated trend for primary_price_avg: [54881.39204545 54849.6290107 ]
+2025-06-18 23:00:48,686 - INFO - Simulated trend for secondary_price_avg: [49997.9384678  49980.62053097]
+2025-06-18 23:00:48,689 - INFO - Simulated trend for stock_var: [27471.98863636 27386.25534759]
+2025-06-18 23:00:48,689 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-06-18 23:00:48,699 - INFO - Forecasted retail_sales for chennai on Feb-2024: 14198.99
+2025-06-18 23:00:48,706 - INFO - Forecasted retail_sales for chennai on Mar-2024: 13792.65
+2025-06-18 23:01:11,928 - INFO - Entered forecast_next_months()
+2025-06-18 23:01:11,928 - INFO - Reading data from data/delhi_pr.csv
+2025-06-18 23:01:11,935 - INFO - Last date in dataset: 12-01-2024
+2025-06-18 23:01:11,935 - INFO - Generating future dates...
+2025-06-18 23:01:11,936 - INFO - Simulating future values using linear trend...
+2025-06-18 23:01:11,936 - INFO - Simulating future inputs... df shape: (30, 33), months: 6
+2025-06-18 23:01:11,940 - INFO - Simulated trend for primary_price_avg: [52987.35245977 52907.84114965 52828.32983953 52748.8185294
+ 52669.30721928 52589.79590916]
+2025-06-18 23:01:11,943 - INFO - Simulated trend for secondary_price_avg: [44127.30653563 44039.33332073 43951.36010582 43863.38689092
+ 43775.41367601 43687.4404611 ]
+2025-06-18 23:01:11,946 - INFO - Simulated trend for stock_var: [46260.69195402 46248.61831665 46236.54467927 46224.4710419
+ 46212.39740452 46200.32376715]
+2025-06-18 23:01:11,946 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-06-18 23:01:11,949 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,949 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,950 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,956 - INFO - Forecasted retail_sales for delhi on Feb-2024: 3167.99
+2025-06-18 23:01:11,959 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,959 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,960 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,965 - INFO - Forecasted retail_sales for delhi on Mar-2024: 18550.84
+2025-06-18 23:01:11,967 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,968 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,968 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,973 - INFO - Forecasted retail_sales for delhi on Apr-2024: 10096.58
+2025-06-18 23:01:11,976 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,977 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,977 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,979 - ERROR - Generated input for May-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:01:11,981 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,981 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,981 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,982 - ERROR - Generated input for Jun-2024 contains NaN. Skipping this prediction.
+2025-06-18 23:01:11,984 - ERROR - Missing features for prediction: {'non_retail_sales', 'secondary_price_roll3'}
+2025-06-18 23:01:11,985 - WARNING - Setting missing feature 'non_retail_sales' to 0
+2025-06-18 23:01:11,985 - WARNING - Setting missing feature 'secondary_price_roll3' to 0
+2025-06-18 23:01:11,986 - ERROR - Generated input for Jul-2024 contains NaN. Skipping this prediction.
