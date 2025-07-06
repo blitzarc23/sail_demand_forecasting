@@ -9,6 +9,7 @@ from src.logger import get_logger
 import sys
 import os
 import numpy as np
+from src.google_sheets_utils import read_sheet_as_df, write_df_to_sheet
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 logger = get_logger()
@@ -186,8 +187,8 @@ def feature_engineer():
         retail_sales = float(request.form.get('retail_sales', 0))
         non_retail_sales = float(request.form.get('non_retail_sales', 0))
 
-        file_path = f"data/{city}_pr.csv"
-        df = pd.read_csv(file_path, parse_dates=['date'], dayfirst=True)
+        # Use Google Sheets instead of CSV
+        df = read_sheet_as_df(f"{city}_pr")
         df = df.sort_values('date').reset_index(drop=True)
 
         # Compute next date
@@ -205,37 +206,29 @@ def feature_engineer():
         }
         df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
-        # Feature engineering
+        # Feature engineering (same as before)
         df['price_diff'] = df['primary_price_avg'] - df['secondary_price_avg']
         df['total_sales'] = df['retail_sales'] + df['non_retail_sales']
-
         for col in ['primary_price_avg', 'secondary_price_avg', 'stock_var', 'retail_sales', 'non_retail_sales', 'price_diff']:
             for lag in [1, 2, 3]:
                 df[f'{col}_lag_{lag}'] = df[col].shift(lag)
-
-        df['primary_price_roll3'] = df['primary_price_avg'].rolling(3, min_periods=1, center=True).mean()
-        df['secondary_price_roll3'] = df['secondary_price_avg'].rolling(3, min_periods=1, center=True).mean()
-        df['retail_sales_roll3'] = df['retail_sales'].rolling(3, min_periods=1, center=True).mean()
-        df['non_retail_sales_roll3'] = df['non_retail_sales'].rolling(3, min_periods=1, center=True).mean()
-
+        df['primary_price_avg_roll_3'] = df['primary_price_avg'].rolling(3, min_periods=1, center=True).mean()
+        df['secondary_price_avg_roll_3'] = df['secondary_price_avg'].rolling(3, min_periods=1, center=True).mean()
+        df['retail_sales_roll_3'] = df['retail_sales'].rolling(3, min_periods=1, center=True).mean()
+        df['non_retail_sales_roll_3'] = df['non_retail_sales'].rolling(3, min_periods=1, center=True).mean()
         df['trend_index'] = range(1, len(df) + 1)
-        df['month'] = range(1, len(df) + 1)
         df['month_number'] = pd.to_datetime(df['date'], dayfirst=True).dt.month
-
-        # non_retail_sales_custom_avg: rolling mean of n-1, n, n+1
         n = len(df)
         non_retail = df['non_retail_sales'].copy()
         if n >= 2:
-            non_retail.iloc[-1] = non_retail.iloc[-2]  # simulate n+1 as n for last row
+            non_retail.iloc[-1] = non_retail.iloc[-2]
         df['non_retail_sales_custom_avg'] = non_retail.rolling(3, min_periods=1, center=True).mean()
-
-        # Save date in dd-mm-yyyy format
         df['date'] = pd.to_datetime(df['date'], dayfirst=True).dt.strftime('%d-%m-%Y')
-        df.to_csv(file_path, index=False)
 
-        # Compute next-next date for the form
+        # Save back to Google Sheet
+        write_df_to_sheet(df, f"{city}_pr")
+
         next_next_date = (pd.to_datetime(next_date) + pd.DateOffset(months=1)).strftime('%B %Y')
-
         return render_template('index.html', message="Row added and features updated!", next_date_msg=f"Please Input Values for Next Month - {next_next_date}")
 
     except Exception as e:
