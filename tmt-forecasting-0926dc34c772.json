@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tmt-forecasting",
+  "private_key_id": "0926dc34c772cdc9b9745b140fe3d30affb80ec8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGRcsN+UINPuBs\ng87vwlqWVQ/ddVqBqwlCveNp3EzgjYffwfiVM9qu3o7IFNDRE27xa3bjqKLEKHLD\n9eq1zYz+k6L1VKqn7Lahre4scI5NEYebnG+1dBxaEWU8PKldzgy5Wbe1Zg9OhKlS\n3z7zX2bQ8JAEABGpb18dX4usypo4wxcrhx3y/hnp6uIXMyIn9gkBEgteE/wiE+yx\nx1XpYQUAWbS/UGJR6EcA+tKM5HTcI0xTw44ACrwVnxjma4oU1D07NT6bo4GxBart\nGeU4n4fWfw6zWnuGNrqiThKN8ROEGNH2f3TFC0IQFtDM9fIJvvM9dVH7OTCM82ZU\ntEwHErbvAgMBAAECggEAFIcMT1LjpkhrZtYSBNuxPPLrP2k+KMJNpVB7Qi4HSDu5\npLkfOfSnlZxALxyMmWDdhyGHqmlUCg1gAxmA++KfUDTL1deMCvJkiYJe8CXqbbXn\naCfUSaE5quTgf3yOUm0Z/ySinaVxPJav4H8cNDPyiqZQBWyrvMg655PJURHxe/fJ\nJwBwuatpF//alu19YRGG/qaQzMlOnW8j1faKy9wP5qpVKevcRfbeByOWy4IAwvXh\nVrvu2+YyCYnpTpLy67tWats6Dwzh0uoB6PIXt4Noc4nBNorJYcd7PyxBtgjVEqJ/\nhPvRdDn1opp8yXH9RQZ+NQZoaHgVqudSyBmsRpXVQQKBgQD+nMqDcoWAfaiKW7rL\nheThG/j0nmR11+Qvr0wVqOYfBESINq4QloyMIwu7jDkgjMJTG1xUitXcChKC0iyj\ng4w81RlsIt+Op6bbee0tR4c/sjRwqYi1ApKvtUJGqsd0r6T3HXX2fPcVGFl+veP1\n1mPbZpWhSGeHzvyfky0/L+n6rwKBgQDHWmcRm/oaCHknYLcj0m7sagXF9pWIYyKE\nPfKRC/W5ByKHwpELYSeZ0NZiynwlF9kxcGVac8O1VtcNC+3m9o/whSK5OgR3C/er\n1DB5Bil4B1UsDZRuLLrmP0iLiqEGBVwV+gf/wSScrPr/5kFqWdYOkeAB1Xemjd84\nUWQsjgkXwQKBgQD2kwlce0/mu8q5E1S3PRgHGXvkCnDn3whRVcatQ0B40T09XRb9\nYY8DN/1ox8ebSjX3Hgwwo7OwwOBkaP5p7D+nughAvRUbpijlbBLRQvAsM3ytjsGh\n6rf8CeIBZep7io6L8rAG4ca3WzlwkJ1vuwxBsfs+kkwRLddhArtS8if6aQKBgEFB\nsY2NHnCZJ3ehbDHYt6DCEAO+dTKBKRJa6OVcIeKgmEgSg8JS2lC6kQMjv0GxLdLG\nNRdH39+jfp/xsL2zJmkYW8aAXGfPzhI8UmW7g6Wb2OCjzVvHXqLyQkATcCR1arBy\n+V1aDy8OXNeZuv4iTDTWwZo4E4O82z4nPoBrOkTBAoGBAI4eG1idtOXPjGn9tVO0\n3eLWcG23q/QkKluIEouQLvyc/6IvKMhOdYKU8VBevumE9R+3aP/FVVdEVwVVljD4\nEeTCRTW38so+oVXIZPiEHjz+LqoqQOV62TTp2K9+tHYrz4akPl6qnO9p3DEx0u5Z\nxzc2EEi8CmsYZyC3wTDJp9Jn\n-----END PRIVATE KEY-----\n",
+  "client_email": "forecasting-service-account@tmt-forecasting.iam.gserviceaccount.com",
+  "client_id": "100774331722478937335",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forecasting-service-account%40tmt-forecasting.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
