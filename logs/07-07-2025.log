@@ -1,0 +1,68 @@
+2025-07-07 00:47:50,674 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 00:49:55,260 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 00:52:05,177 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 00:54:39,749 - INFO - Entered forecast_next_months()
+2025-07-07 00:54:39,749 - INFO - Reading data from data/chennai_pr.csv
+2025-07-07 00:54:39,762 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 00:54:39,762 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 00:54:39,762 - INFO - Generating future dates...
+2025-07-07 00:54:39,763 - INFO - Simulating future values using linear trend...
+2025-07-07 00:54:39,763 - INFO - Simulating future inputs... df shape: (36, 33), months: 6
+2025-07-07 00:54:39,777 - INFO - Simulated trend for primary_price_avg: [52195.45730159 52023.11966323 51850.78202488 51678.44438653
+ 51506.10674818 51333.76910982]
+2025-07-07 00:54:39,780 - INFO - Simulated trend for secondary_price_avg: [45021.38063492 44748.04849206 44474.71634921 44201.38420635
+ 43928.05206349 43654.71992063]
+2025-07-07 00:54:39,783 - INFO - Simulated trend for stock_var: [34903.97142857 35216.33024453 35528.68906049 35841.04787645
+ 36153.40669241 36465.76550837]
+2025-07-07 00:54:39,783 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-07-07 00:54:40,139 - INFO - Forecasted retail_sales for chennai on Jul-2025: 14304.88
+2025-07-07 00:54:40,139 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:40,149 - INFO - Forecasted retail_sales for chennai on Aug-2025: 14448.31
+2025-07-07 00:54:40,150 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:40,160 - INFO - Forecasted retail_sales for chennai on Sep-2025: 14462.51
+2025-07-07 00:54:40,160 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:40,170 - INFO - Forecasted retail_sales for chennai on Oct-2025: 14430.57
+2025-07-07 00:54:40,170 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:40,180 - INFO - Forecasted retail_sales for chennai on Nov-2025: 14426.01
+2025-07-07 00:54:40,181 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:40,191 - INFO - Forecasted retail_sales for chennai on Dec-2025: 14426.01
+2025-07-07 00:54:40,191 - INFO - Forecasting completed successfully.
+2025-07-07 00:54:53,164 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 00:55:46,781 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 00:57:55,480 - ERROR - Error in feature_engineer: unsupported operand type(s) for -: 'str' and 'str'
+2025-07-07 01:15:00,594 - ERROR - Error in feature_engineer: [Errno 13] Permission denied: 'data/mumbai_pr.csv'
+2025-07-07 10:44:12,106 - INFO - Entered forecast_next_months()
+2025-07-07 10:44:12,106 - INFO - Reading data from data/durgapur_pr.csv
+2025-07-07 10:44:12,136 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 10:44:12,137 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 10:44:12,137 - INFO - Generating future dates...
+2025-07-07 10:44:12,138 - INFO - Simulating future values using linear trend...
+2025-07-07 10:44:12,138 - INFO - Simulating future inputs... df shape: (36, 33), months: 3
+2025-07-07 10:44:12,181 - INFO - Simulated trend for primary_price_avg: [51852.65606032 51705.46729931 51558.27853831]
+2025-07-07 10:44:12,184 - INFO - Simulated trend for secondary_price_avg: [40453.49163968 40161.20789798 39868.92415628]
+2025-07-07 10:44:12,188 - INFO - Simulated trend for stock_var: [46142.92380952 46172.06383526 46201.203861  ]
+2025-07-07 10:44:12,188 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-07-07 10:44:12,276 - INFO - Forecasted retail_sales for durgapur on Jul-2025: 27595.96
+2025-07-07 10:44:12,276 - INFO - Forecasting completed successfully.
+2025-07-07 10:44:12,280 - INFO - Forecasted retail_sales for durgapur on Aug-2025: 25788.01
+2025-07-07 10:44:12,280 - INFO - Forecasting completed successfully.
+2025-07-07 10:44:12,284 - INFO - Forecasted retail_sales for durgapur on Sep-2025: 26265.97
+2025-07-07 10:44:12,284 - INFO - Forecasting completed successfully.
+2025-07-07 10:44:12,284 - INFO - Entered forecast_next_months()
+2025-07-07 10:44:12,284 - INFO - Reading data from data/durgapur_pr.csv
+2025-07-07 10:44:12,290 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 10:44:12,291 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 10:44:12,291 - INFO - Generating future dates...
+2025-07-07 10:44:12,291 - INFO - Simulating future values using linear trend...
+2025-07-07 10:44:12,291 - INFO - Simulating future inputs... df shape: (36, 33), months: 3
+2025-07-07 10:44:12,295 - INFO - Simulated trend for primary_price_avg: [51852.65606032 51705.46729931 51558.27853831]
+2025-07-07 10:44:12,298 - INFO - Simulated trend for secondary_price_avg: [40453.49163968 40161.20789798 39868.92415628]
+2025-07-07 10:44:12,301 - INFO - Simulated trend for stock_var: [46142.92380952 46172.06383526 46201.203861  ]
+2025-07-07 10:44:12,301 - INFO - Generated trends: primary(3), secondary(3), stock(3)
+2025-07-07 10:44:12,378 - INFO - Forecasted non_retail_sales for durgapur on Jul-2025: 30712.26
+2025-07-07 10:44:12,378 - INFO - Forecasting completed successfully.
+2025-07-07 10:44:12,382 - INFO - Forecasted non_retail_sales for durgapur on Aug-2025: 31336.56
+2025-07-07 10:44:12,382 - INFO - Forecasting completed successfully.
+2025-07-07 10:44:12,385 - INFO - Forecasted non_retail_sales for durgapur on Sep-2025: 26188.13
+2025-07-07 10:44:12,385 - INFO - Forecasting completed successfully.
+2025-07-07 10:47:37,476 - ERROR - Error in feature_engineer: [Errno 13] Permission denied: 'data/durgapur_pr.csv'
