@@ -66,3 +66,94 @@
 2025-07-07 10:44:12,385 - INFO - Forecasted non_retail_sales for durgapur on Sep-2025: 26188.13
 2025-07-07 10:44:12,385 - INFO - Forecasting completed successfully.
 2025-07-07 10:47:37,476 - ERROR - Error in feature_engineer: [Errno 13] Permission denied: 'data/durgapur_pr.csv'
+2025-07-07 11:45:29,447 - INFO - Entered forecast_next_months()
+2025-07-07 11:45:29,448 - INFO - Reading data from data/durgapur_pr.csv
+2025-07-07 11:45:29,458 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:45:29,458 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:45:29,458 - INFO - Generating future dates...
+2025-07-07 11:45:29,458 - INFO - Simulating future values using linear trend...
+2025-07-07 11:45:29,458 - INFO - Simulating future inputs... df shape: (36, 35), months: 2
+2025-07-07 11:45:29,465 - INFO - Simulated trend for primary_price_avg: [51852.65606032 51705.46729931]
+2025-07-07 11:45:29,468 - INFO - Simulated trend for secondary_price_avg: [40453.49163968 40161.20789798]
+2025-07-07 11:45:29,471 - INFO - Simulated trend for stock_var: [46142.92380952 46172.06383526]
+2025-07-07 11:45:29,472 - INFO - Generated trends: primary(2), secondary(2), stock(2)
+2025-07-07 11:45:29,523 - INFO - Forecasted retail_sales for durgapur on Jul-2025: 28198.02
+2025-07-07 11:45:29,523 - INFO - Forecasting completed successfully.
+2025-07-07 11:45:29,528 - INFO - Forecasted retail_sales for durgapur on Aug-2025: 26390.07
+2025-07-07 11:45:29,528 - INFO - Forecasting completed successfully.
+2025-07-07 11:45:30,875 - WARNING - Failed to write forecast to Google Sheets: durgapur_retail_sales_forecast
+2025-07-07 11:45:40,642 - INFO - Entered forecast_next_months()
+2025-07-07 11:45:40,642 - INFO - Reading data from data/mumbai_pr.csv
+2025-07-07 11:45:40,648 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:45:40,648 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:45:40,648 - INFO - Generating future dates...
+2025-07-07 11:45:40,648 - INFO - Simulating future values using linear trend...
+2025-07-07 11:45:40,648 - INFO - Simulating future inputs... df shape: (37, 34), months: 3
+2025-07-07 11:45:40,649 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-07-07 11:45:40,672 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/mumbai_pr.csv
+2025-07-07 11:45:40,672 - ERROR - Error during forecast: 'NoneType' object has no attribute 'empty'
+2025-07-07 11:46:16,665 - INFO - Entered forecast_next_months()
+2025-07-07 11:46:16,665 - INFO - Reading data from data/mumbai_pr.csv
+2025-07-07 11:46:16,670 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:46:16,671 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:46:16,671 - INFO - Generating future dates...
+2025-07-07 11:46:16,671 - INFO - Simulating future values using linear trend...
+2025-07-07 11:46:16,671 - INFO - Simulating future inputs... df shape: (37, 34), months: 3
+2025-07-07 11:46:16,672 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-07-07 11:46:16,673 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/mumbai_pr.csv
+2025-07-07 11:46:16,673 - ERROR - Error during forecast: 'NoneType' object has no attribute 'empty'
+2025-07-07 11:46:45,381 - INFO - Entered forecast_next_months()
+2025-07-07 11:46:45,381 - INFO - Reading data from data/mumbai_pr.csv
+2025-07-07 11:46:45,386 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:46:45,386 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:46:45,386 - INFO - Generating future dates...
+2025-07-07 11:46:45,387 - INFO - Simulating future values using linear trend...
+2025-07-07 11:46:45,387 - INFO - Simulating future inputs... df shape: (37, 34), months: 3
+2025-07-07 11:46:45,387 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-07-07 11:46:45,388 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/mumbai_pr.csv
+2025-07-07 11:46:45,388 - INFO - Entered forecast_next_months()
+2025-07-07 11:46:45,389 - INFO - Reading data from data/mumbai_pr.csv
+2025-07-07 11:46:45,393 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:46:45,394 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:46:45,394 - INFO - Generating future dates...
+2025-07-07 11:46:45,394 - INFO - Simulating future values using linear trend...
+2025-07-07 11:46:45,394 - INFO - Simulating future inputs... df shape: (37, 34), months: 3
+2025-07-07 11:46:45,395 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-07-07 11:46:45,409 - ERROR - Error while forecasting: 'NoneType' object is not subscriptable | File path was: data/mumbai_pr.csv
+2025-07-07 11:46:45,409 - INFO - Entered forecast_next_months()
+2025-07-07 11:46:45,410 - INFO - Reading data from data/mumbai_pr.csv
+2025-07-07 11:46:45,414 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:46:45,415 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:46:45,415 - INFO - Generating future dates...
+2025-07-07 11:46:45,415 - INFO - Simulating future values using linear trend...
+2025-07-07 11:46:45,415 - INFO - Simulating future inputs... df shape: (37, 34), months: 3
+2025-07-07 11:46:45,416 - ERROR - Missing or invalid values in required column: primary_price_avg
+2025-07-07 11:46:45,416 - ERROR - Error while forecasting: [Errno 2] No such file or directory: 'models/mumbai_stock_var.pkl' | File path was: data/mumbai_pr.csv
+2025-07-07 11:46:45,416 - ERROR - Error during forecast: Can only merge Series or DataFrame objects, a <class 'NoneType'> was passed
+2025-07-07 11:47:12,359 - INFO - Entered forecast_next_months()
+2025-07-07 11:47:12,359 - INFO - Reading data from data/chennai_pr.csv
+2025-07-07 11:47:12,364 - INFO - Max date value: 2025-06-01 00:00:00
+2025-07-07 11:47:12,364 - INFO - Last date in dataset: 01-06-2025
+2025-07-07 11:47:12,364 - INFO - Generating future dates...
+2025-07-07 11:47:12,365 - INFO - Simulating future values using linear trend...
+2025-07-07 11:47:12,365 - INFO - Simulating future inputs... df shape: (36, 38), months: 6
+2025-07-07 11:47:12,369 - INFO - Simulated trend for primary_price_avg: [52195.45730159 52023.11966323 51850.78202488 51678.44438653
+ 51506.10674818 51333.76910982]
+2025-07-07 11:47:12,372 - INFO - Simulated trend for secondary_price_avg: [45021.38063492 44748.04849206 44474.71634921 44201.38420635
+ 43928.05206349 43654.71992063]
+2025-07-07 11:47:12,375 - INFO - Simulated trend for stock_var: [34903.97142857 35216.33024453 35528.68906049 35841.04787645
+ 36153.40669241 36465.76550837]
+2025-07-07 11:47:12,375 - INFO - Generated trends: primary(6), secondary(6), stock(6)
+2025-07-07 11:47:12,518 - INFO - Forecasted non_retail_sales for chennai on Jul-2025: 13116.25
+2025-07-07 11:47:12,519 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:12,522 - INFO - Forecasted non_retail_sales for chennai on Aug-2025: 14380.29
+2025-07-07 11:47:12,522 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:12,526 - INFO - Forecasted non_retail_sales for chennai on Sep-2025: 10040.66
+2025-07-07 11:47:12,526 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:12,530 - INFO - Forecasted non_retail_sales for chennai on Oct-2025: 10745.43
+2025-07-07 11:47:12,530 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:12,534 - INFO - Forecasted non_retail_sales for chennai on Nov-2025: 10478.86
+2025-07-07 11:47:12,534 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:12,537 - INFO - Forecasted non_retail_sales for chennai on Dec-2025: 10504.29
+2025-07-07 11:47:12,537 - INFO - Forecasting completed successfully.
+2025-07-07 11:47:13,773 - WARNING - Failed to write forecast to Google Sheets: chennai_non_retail_sales_forecast
