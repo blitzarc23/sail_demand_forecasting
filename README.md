@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a web-based forecasting tool developed to predict monthly TMT rebar sales (retail and non-retail) across four major Indian cities: Mumbai, Delhi, Chennai, and Durgapur. The application leverages historical pricing and sales data to simulate future values and generate forecasts using machine learning models. It supports city- and segment-specific predictions with an intuitive user interface.
+This project is a web-based forecasting tool developed to predict monthly TMT rebar sales (retail and non-retail) across four major regions: Northern Region, Southern Region, Eastern Region and Western Region. The application leverages historical pricing data from major urban markets in the regions ( Delhi - Northern Reigon, Chennai - Southern Region, Durgapur - Eastern Region and Mumbai - Western Region ) as reference points and sales data to simulate future values and generate forecasts using machine learning models. It supports region - and segment-specific predictions with an interactive user interface.
 
 ## Features
 
@@ -20,24 +20,24 @@ This project is a web-based forecasting tool developed to predict monthly TMT re
 ```
 project/
 │
-├── app.py                      # Flask application entry point
+├── app.py                      
 ├── templates/
-│   ├── index.html              # Home page
-│   └── result.html             # Forecast results page
+│   ├── index.html              
+│   └── result.html             
 ├── static/
-│   ├── style.css               # Optional CSS file
-│   └── bg.jpg                  # Background image
-├── models/                     # Pre-trained machine learning models
+│   ├── style.css               
+│   └── bg.jpg                 
+├── models/                    
 │   └── *.pkl
 ├── data/
-│   └── city_pr.csv             # Feature-engineered datasets (one per city)
+│   └── city_pr.csv             
 ├── src/
-│   ├── forecast_utils.py       # Forecasting logic
-│   ├── feature_simulator.py    # Price and stock simulation
-│   ├── recursive_forecaster.py # Recursive prediction loop
-│   └── feature_selector.py     # Feature selection per city and segment
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
+│   ├── forecast_utils.py       
+│   ├── feature_simulator.py    
+│   ├── recursive_forecaster.py 
+│   └── feature_selector.py     
+├── requirements.txt            
+└── README.md                   
 ```
 
 ## Technologies Used
@@ -85,14 +85,14 @@ project/
 
 ## Usage
 
-1. Select the city and sales segment (Retail or Non-retail).
+1. Select the region and sales segment (Retail or Non-retail).
 2. Click "Forecast" to generate a 6-month sales prediction.
 3. View forecast plots and tables on the result page.
 4. Optionally, download the predicted data for offline use.
 
 ## Data
 
-- Monthly primary and secondary price averages (2022–2025)
+- Monthly primary and secondary price averages from urban markets from the major regions (2022–2025)
 - Monthly retail and non-retail sales volumes per city
 - Derived features: lags, rolling averages, price differences, stock variation trends
 
@@ -102,5 +102,5 @@ This project is for academic and research purposes. Please contact the author be
 
 ## Contributors
 
-- [Pranshu Tijil]
+- Pranshu Tijil
 - Steel Authority of India (SAIL) – Data Source
