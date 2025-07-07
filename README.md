@@ -102,6 +102,5 @@ This project is for academic and research purposes. Please contact the author be
 
 ## Contributors
 
-- [Your Name]
-- [Mentor/Supervisor, if applicable]
+- [Pranshu Tijil]
 - Steel Authority of India (SAIL) – Data Source
